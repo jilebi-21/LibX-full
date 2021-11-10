@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ProgressBarXStyle" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/sesl_progress</item>
+    </style>
+
+    <style name="ProgressBarXStyle.Small" parent="@style/ProgressBarXStyle">
+        <item name="android:maxWidth">@dimen/sesl_progress_bar_size_small</item>
+        <item name="android:maxHeight">@dimen/sesl_progress_bar_size_small</item>
+        <item name="android:minWidth">@dimen/sesl_progress_bar_size_small</item>
+        <item name="android:minHeight">@dimen/sesl_progress_bar_size_small</item>
+    </style>
+
+    <style name="ProgressBarXStyle.Large" parent="@style/ProgressBarXStyle">
+        <item name="android:maxWidth">@dimen/sesl_progress_bar_size_large</item>
+        <item name="android:maxHeight">@dimen/sesl_progress_bar_size_large</item>
+        <item name="android:minWidth">@dimen/sesl_progress_bar_size_large</item>
+        <item name="android:minHeight">@dimen/sesl_progress_bar_size_large</item>
+    </style>
+
+    <style name="ProgressBarXStyle.Title" parent="@style/ProgressBarXStyle">
+        <item name="android:maxWidth">@dimen/sesl_progress_bar_size_small_title</item>
+        <item name="android:maxHeight">@dimen/sesl_progress_bar_size_small_title</item>
+        <item name="android:minWidth">@dimen/sesl_progress_bar_size_small_title</item>
+        <item name="android:minHeight">@dimen/sesl_progress_bar_size_small_title</item>
+    </style>
+
+    <style name="ProgressBarXStyle.Horizontal" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateDrawable">@drawable/sesl_scrubber_progress_horizontal</item>
+        <item name="android:progressDrawable">@drawable/sesl_scrubber_progress_horizontal</item>
+    </style>
+</resources>

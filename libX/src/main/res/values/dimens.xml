@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sesl_seekbar_track_height">3.0dip</dimen>
+    <dimen name="sesl_progress_bar_height">3.0dip</dimen>
+    <dimen name="sesl_progress_bar_min_height">16.0dip</dimen>
+    <dimen name="sesl_progress_bar_size_large">60.0dip</dimen>
+    <dimen name="sesl_progress_bar_size_small">24.0dip</dimen>
+    <dimen name="sesl_progress_bar_size_small_title">16.0dip</dimen>
+</resources>

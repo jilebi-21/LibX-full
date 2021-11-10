@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sesl_seekbar_control_color_normal">#4d0381fe</color>
+    <color name="sesl_seekbar_control_color_secondary">#ff7ab9cb</color>
+    <color name="sesl_seekbar_control_color_activated">#ff0381fe</color>
+
+    <color name="sesl_loading_progress_color1">#ff06b485</color>
+    <color name="sesl_loading_progress_color2">?colorPrimary</color>
+</resources>

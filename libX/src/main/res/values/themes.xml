@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppThemeX" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:progressBarStyle">@style/ProgressBarXStyle</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarXStyle.Horizontal</item>
+        <item name="android:progressBarStyleSmall">@style/ProgressBarXStyle.Small</item>
+        <item name="android:progressBarStyleLarge">@style/ProgressBarXStyle.Large</item>
+        <item name="android:progressBarStyleSmallTitle">@style/ProgressBarXStyle.Title</item>
+        <item name="android:progressBarStyleInverse">@style/ProgressBarXStyle</item>
+        <item name="android:progressBarStyleSmallInverse">@style/ProgressBarXStyle.Small</item>
+        <item name="android:progressBarStyleLargeInverse">@style/ProgressBarXStyle.Large</item>
+    </style>
+</resources>
