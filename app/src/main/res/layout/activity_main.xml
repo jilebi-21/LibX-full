@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -13,37 +12,56 @@
         android:layout_height="?actionBarSize"
         app:title="Design Library" />
 
-    <ProgressBar
-        style="?android:progressBarStyleHorizontal"
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:text="Buttons" />
+
+    <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:indeterminate="true" />
+        android:layout_height="wrap_content">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
 
-        <ProgressBar
-            style="?android:progressBarStyleLarge"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.SwitchCompat
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Switch" />
 
-        <ProgressBar
-            style="?android:progressBarStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
 
-        <ProgressBar
-            style="?android:progressBarStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+                <Button
+                    style="@style/ButtonStyle.Transparent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button" />
 
-        <ProgressBar
-            style="?android:progressBarStyleSmallTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+                <Button
+                    style="@style/ButtonStyle.Filled"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button" />
 
-    </LinearLayout>
+                <Button
+                    style="@style/ButtonStyle.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:text="Progress bars" />
+
+    <include layout="@layout/layout_progress" />
 </LinearLayout>

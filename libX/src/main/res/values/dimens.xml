@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="sesl_seekbar_track_height">3.0dip</dimen>
+    <item name="sesl_disabled_color_alpha" type="dimen">0.4</item>
+
     <dimen name="sesl_progress_bar_height">3.0dip</dimen>
     <dimen name="sesl_progress_bar_min_height">16.0dip</dimen>
     <dimen name="sesl_progress_bar_size_large">60.0dip</dimen>
     <dimen name="sesl_progress_bar_size_small">24.0dip</dimen>
     <dimen name="sesl_progress_bar_size_small_title">16.0dip</dimen>
+
+    <!-- List separator -->
+    <dimen name="sesl_list_subheader_padding_top">11.75dip</dimen>
+    <dimen name="sesl_list_subheader_padding_bottom">5.0dip</dimen>
+    <dimen name="sesl_list_subheader_text_size">14.0sp</dimen>
+
+    <!-- Button -->
+    <dimen name="sesl_button_corner_radius">26.0dip</dimen>
+    <dimen name="sesl_button_text_size">15.0sp</dimen>
+    <dimen name="sesl_show_button_background_radius">2.0dip</dimen>
+
+    <!--Switch-->
+    <dimen name="sesl_switch_width">43.0dip</dimen>
+
+    <!-- Seekbar -->
+    <dimen name="sesl_seekbar_padding_horizontal">16.0dip</dimen>
+    <dimen name="sesl_seekbar_ripple_radius">16.0dip</dimen>
+    <dimen name="sesl_seekbar_thumb_radius">8.5dp</dimen>
+    <dimen name="sesl_seekbar_track_height">3.0dip</dimen>
+    <dimen name="sesl_seekbar_track_height_expand">17.0dip</dimen>
 </resources>

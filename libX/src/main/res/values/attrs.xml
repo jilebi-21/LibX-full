@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Spinner">
+        <attr name="android:prompt" />
+        <attr name="popupTheme" format="reference" />
+        <attr name="android:popupBackground" />
+        <attr name="android:dropDownWidth" />
+        <attr name="android:entries" />
+    </declare-styleable>
+
+    <declare-styleable name="SeslCheckedTextView">
+        <attr name="android:checked" />
+        <attr name="android:checkMark" />
+        <attr name="android:checkMarkTint" />
+        <attr name="android:checkMarkTintMode" />
+        <attr name="checkMarkGravity" />
+    </declare-styleable>
+
+    <attr name="checkMarkGravity">
+        <flag name="end" value="0x00800005" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+    </attr>
+</resources>
