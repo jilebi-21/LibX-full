@@ -26,4 +26,14 @@
 
     <!-- Seekbar -->
     <color name="sesl_seekbar_disable_color_activated">#ff545454</color>
+
+    <!--Spinner-->
+    <color name="sesl_menu_popup_background_color">#ff252525</color>
+    <color name="sesl_menu_popup_background_stroke_color">#ff252525</color>
+    <color name="sesl_spinner_dropdown_item_text_color_normal">#fffafafa</color>
+    <color name="sesl_spinner_dropdown_item_text_color_disabled">#66fafafa</color>
+    <color name="sesl_spinner_icon_color_default">#ffd9d9d9</color>
+    <color name="sesl_spinner_icon_color_disabled">#66d9d9d9</color>
+    <color name="sesl_spinner_item_text_color_disabled">#66fafafa</color>
+    <color name="sesl_spinner_item_text_color_normal">@color/sesl_white</color>
 </resources>

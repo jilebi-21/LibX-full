@@ -27,4 +27,27 @@
     <dimen name="sesl_seekbar_thumb_radius">8.5dp</dimen>
     <dimen name="sesl_seekbar_track_height">3.0dip</dimen>
     <dimen name="sesl_seekbar_track_height_expand">17.0dip</dimen>
+
+    <!--Spinner-->
+    <dimen name="sesl_menu_popup_max_height">464.0dip</dimen>
+    <dimen name="sesl_menu_popup_bottom_margin">6.0dip</dimen>
+    <dimen name="sesl_menu_popup_bottom_padding">6.0dip</dimen>
+    <dimen name="sesl_menu_popup_corner_radius">24.0dip</dimen>
+    <dimen name="sesl_menu_popup_elevation">8.0dip</dimen>
+    <item name="sesl_menu_popup_scale_anim_pivot_x" type="dimen">100.0%</item>
+    <dimen name="sesl_menu_popup_stroke_width">1.0px</dimen>
+    <dimen name="sesl_menu_popup_top_margin">6.0dip</dimen>
+    <dimen name="sesl_menu_popup_top_padding">6.0dip</dimen>
+
+    <dimen name="sesl_popup_menu_item_bottom_padding">13.0dip</dimen>
+    <dimen name="sesl_popup_menu_item_end_padding">24.0dip</dimen>
+    <dimen name="sesl_popup_menu_item_min_height">43.0dip</dimen>
+    <dimen name="sesl_popup_menu_item_min_width">168.0dip</dimen>
+    <dimen name="sesl_popup_menu_item_start_padding">24.0dip</dimen>
+    <dimen name="sesl_popup_menu_item_top_padding">13.0dip</dimen>
+
+    <dimen name="sesl_checked_text_padding">18.0dip</dimen>
+
+    <!--Popup-->
+    <dimen name="sesl_popup_menu_item_text_size">17.0sp</dimen>
 </resources>

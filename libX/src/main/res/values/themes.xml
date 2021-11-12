@@ -38,5 +38,10 @@
         <item name="checkboxStyle">@style/CheckBoxStyle</item>
         <item name="android:radioButtonStyle">@style/RadioButtonStyle</item>
         <item name="radioButtonStyle">@style/RadioButtonStyle</item>
+
+        <item name="spinnerStyle">@style/SpinnerStyle</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemStyle</item>
+        <item name="spinnerDropDownItemStyle">@style/SpinnerDropDownItemStyle</item>
+        <item name="dropdownListPreferredItemHeight">@dimen/sesl_popup_menu_item_min_height</item>
     </style>
 </resources>
