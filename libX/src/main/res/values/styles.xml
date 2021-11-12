@@ -116,4 +116,24 @@
         <item name="cardElevation">0dp</item>
         <item name="cardBackgroundColor">@color/item_background_color</item>
     </style>
+
+    <!-- CheckBox -->
+    <style name="CheckBoxStyle" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:minWidth">?minTouchTargetSize</item>
+        <item name="android:minHeight">?minTouchTargetSize</item>
+        <item name="android:background">@drawable/sesl_control_background</item>
+        <item name="android:button">@drawable/sesl_btn_check</item>
+        <item name="enforceMaterialTheme">true</item>
+        <item name="useMaterialThemeColors">true</item>
+    </style>
+
+    <!-- Radio Button -->
+    <style name="RadioButtonStyle" parent="@style/Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:minWidth">?minTouchTargetSize</item>
+        <item name="android:minHeight">?minTouchTargetSize</item>
+        <item name="android:background">@drawable/sesl_control_background</item>
+        <item name="android:button">@drawable/sesl_btn_radio</item>
+        <item name="enforceMaterialTheme">true</item>
+        <item name="useMaterialThemeColors">true</item>
+    </style>
 </resources>

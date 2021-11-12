@@ -33,5 +33,10 @@
 
         <item name="android:seekBarStyle">@style/SeekBarStyle</item>
         <item name="seekBarStyle">@style/SeekBarStyle</item>
+
+        <item name="android:checkboxStyle">@style/CheckBoxStyle</item>
+        <item name="checkboxStyle">@style/CheckBoxStyle</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonStyle</item>
+        <item name="radioButtonStyle">@style/RadioButtonStyle</item>
     </style>
 </resources>
