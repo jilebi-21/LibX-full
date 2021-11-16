@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="background_color">#ff010101</color>
-    <color name="item_background_color">#ff171717</color>
+    <color name="background_color">#010101</color>
+    <color name="item_background_color">#171717</color>
     <color name="item_color">@color/sesl_white</color>
     <color name="sesl_list_subheader_text_color">#ff999999</color>
+
+    <color name="text_color_primary">#fafafa</color>
+    <color name="text_color_secondary">#9c9c9c</color>
 
     <!--Switch-->
     <color name="sesl_switch_thumb_off_disabled_color">#ff858585</color>
@@ -36,4 +39,8 @@
     <color name="sesl_spinner_icon_color_disabled">#66d9d9d9</color>
     <color name="sesl_spinner_item_text_color_disabled">#66fafafa</color>
     <color name="sesl_spinner_item_text_color_normal">@color/sesl_white</color>
+
+    <!--Tab Layout-->
+    <color name="sesl_tablayout_text_color_default">#A8A9A9</color>
+    <color name="sesl_tablayout_text_color_disabled">#66A8A9A9</color>
 </resources>

@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.libx.ui.views.ToolbarLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    app:navigationIcon="@drawable/ic_samsung_arrow_left"
+    app:subtitle="A small sub title"
+    app:title="Sample Title"
     tools:context=".MainActivity">
-
-    <androidx.appcompat.widget.Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="?actionBarSize"
-        app:title="Design Library" />
 
     <Spinner
         android:id="@+id/spinner"
@@ -31,4 +30,4 @@
         android:text="Progress bars" />
 
     <include layout="@layout/layout_progress" />
-</LinearLayout>
+</com.libx.ui.views.ToolbarLayout>

@@ -50,4 +50,15 @@
 
     <!--Popup-->
     <dimen name="sesl_popup_menu_item_text_size">17.0sp</dimen>
+
+    <!-- AppBarLayout, CollapsingToolbar, Toolbar -->
+    <dimen name="appbar_expanded_title_text_size">38sp</dimen>
+    <dimen name="appbar_expanded_subtitle_text_size">15sp</dimen>
+    <dimen name="appbar_expanded_layout_content_horizontal_padding">24dp</dimen>
+    <dimen name="collapsing_toolbar_default_height">330dp</dimen>
+    <dimen name="toolbar_title_text_size">19sp</dimen>
+    <dimen name="toolbar_subtitle_text_size">13sp</dimen>
+    <dimen name="toolbar_navigation_icon_width">56dp</dimen>
+    <dimen name="toolbar_margin_top">12dp</dimen>
+    <dimen name="toolbar_margin_bottom">4dp</dimen>
 </resources>

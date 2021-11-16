@@ -11,14 +11,17 @@
     <color name="sesl_loading_progress_color1">#ff06b485</color>
     <color name="sesl_loading_progress_color2">?colorPrimary</color>
 
-    <color name="sesl_white">#fffafafa</color>
-    <color name="sesl_black">#ff252525</color>
+    <color name="sesl_white">#fafafa</color>
+    <color name="sesl_black">#252525</color>
     <color name="divider_color">#ff979797</color>
 
-    <color name="background_color">#fff2f2f2</color>
-    <color name="item_background_color">#ffffffff</color>
+    <color name="background_color">#f2f2f2</color>
+    <color name="item_background_color">#ffffff</color>
     <color name="item_color">@color/sesl_black</color>
     <color name="sesl_list_subheader_text_color">#ff8c8c8c</color>
+
+    <color name="text_color_primary">#252525</color>
+    <color name="text_color_secondary">#636363</color>
 
     <!--Switch-->
     <color name="sesl_switch_thumb_off_color">#fffafafa</color>
@@ -57,4 +60,13 @@
     <color name="sesl_spinner_icon_color_disabled">#663b3b3b</color>
     <color name="sesl_spinner_item_text_color_disabled">#66252525</color>
     <color name="sesl_spinner_item_text_color_normal">@color/sesl_black</color>
+
+    <!-- AppBarLayout, Toolbar -->
+    <color name="toolbar_background_color">@color/background_color</color>
+    <color name="toolbar_title_text_color">@color/text_color_primary</color>
+    <color name="toolbar_subtitle_text_color">@color/text_color_secondary</color>
+
+    <!-- Tab Layout -->
+    <color name="sesl_tablayout_text_color_default">#858585</color>
+    <color name="sesl_tablayout_text_color_disabled">#66858585</color>
 </resources>
