@@ -14,6 +14,11 @@ class MainActivity : AppCompatActivity() {
         val toolbarLayout = findViewById<ToolbarLayout>(R.id.toolbar_layout)
         val toolbar = toolbarLayout.toolbar
         setSupportActionBar(toolbar)
+
+        supportFragmentManager
+            .beginTransaction()
+            .replace(R.id.fragment_container, PrefFragment())
+            .commit()
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

@@ -30,4 +30,10 @@
         android:text="Progress bars" />
 
     <include layout="@layout/layout_progress" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="true" />
 </com.libx.ui.views.ToolbarLayout>

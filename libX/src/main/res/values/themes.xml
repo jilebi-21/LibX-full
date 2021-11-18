@@ -22,6 +22,11 @@
         <item name="android:progressBarStyleLargeInverse">@style/ProgressBarXStyle.Large</item>
 
         <item name="android:listSeparatorTextViewStyle">@style/ListSeparatorTextStyle</item>
+        <item name="listPreferredItemPaddingStart">@dimen/list_item_padding_start</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/list_item_padding_start</item>
+        <item name="listPreferredItemPaddingEnd">@dimen/list_item_padding_end</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/list_item_padding_end</item>
+        <item name="android:listDivider">@drawable/list_item_divider</item>
 
         <item name="materialCardViewStyle">@style/CardViewStyle</item>
         <item name="android:buttonStyle">@style/ButtonStyle</item>
@@ -48,5 +53,7 @@
         <item name="collapsingToolbarLayoutStyle">@style/CollapsingToolbarLayoutStyle</item>
         <item name="android:toolbarStyle">@style/ToolbarStyle</item>
         <item name="toolbarStyle">@style/ToolbarStyle</item>
+
+        <item name="preferenceTheme">@style/PreferenceThemeStyle</item>
     </style>
 </resources>

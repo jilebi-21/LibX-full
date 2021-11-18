@@ -32,4 +32,85 @@
         <attr name="expanded" format="boolean" />
         <attr name="navigationIcon" format="reference" />
     </declare-styleable>
+
+    <declare-styleable name="Preference">
+        <attr name="icon" format="reference" />
+        <attr name="android:icon" />
+        <attr name="key" format="string" />
+        <attr name="android:key" />
+        <attr name="title" />
+        <attr name="android:title" />
+        <attr name="summary" format="string" />
+        <attr name="android:summary" />
+        <attr name="order" format="integer" />
+        <attr name="android:order" />
+        <attr name="fragment" format="string" />
+        <attr name="android:fragment" />
+        <attr name="layout" format="reference" />
+        <attr name="android:layout" />
+        <attr name="widgetLayout" format="reference" />
+        <attr name="android:widgetLayout" />
+        <attr name="enabled" format="boolean" />
+        <attr name="android:enabled" />
+        <attr name="selectable" format="boolean" />
+        <attr name="android:selectable" />
+        <attr name="dependency" format="string" />
+        <attr name="android:dependency" />
+        <attr name="persistent" format="boolean" />
+        <attr name="android:persistent" />
+        <attr name="defaultValue" format="string|boolean|integer|reference|float" />
+        <attr name="android:defaultValue" />
+        <attr name="shouldDisableView" format="boolean" />
+        <attr name="android:shouldDisableView" />
+        <attr name="allowDividerAbove" format="boolean" />
+        <attr name="allowDividerBelow" format="boolean" />
+        <attr name="singleLineTitle" format="boolean" />
+        <attr name="android:singleLineTitle" />
+        <attr name="iconSpaceReserved" format="boolean" />
+        <attr name="android:iconSpaceReserved" />
+        <attr name="isPreferenceVisible" format="boolean" />
+        <attr name="enableCopying" format="boolean" />
+        <attr name="datastore" format="enum">
+            <enum name="system" value="0" />
+            <enum name="secure" value="1" />
+            <enum name="global" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="EditTextPreference">
+        <attr name="useSimpleSummaryProvider" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PreferenceGroup">
+        <attr name="orderingFromXml" format="boolean" />
+        <attr name="initialExpandedChildrenCount" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SeekBarPreference">
+        <attr name="min" format="integer" />
+        <attr name="android:max" />
+        <attr name="max" format="integer" />
+        <attr name="overlap" format="integer" />
+        <attr name="units" format="string" />
+        <attr name="seekBarIncrement" format="integer" />
+        <attr name="adjustable" format="boolean" />
+        <attr name="showSeekBarValue" format="boolean" />
+        <attr name="updatesContinuously" format="boolean" />
+        <attr name="seekBarMode">
+            <enum name="expand" value="5" />
+            <enum name="standard" value="0" />
+        </attr>
+        <attr name="seekBarSeamless" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RadioButtonPreferenceGroup">
+        <attr name="checkedPreferenceKey" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="PreferenceImageView">
+        <attr name="maxWidth" format="dimension" />
+        <attr name="android:maxWidth" />
+        <attr name="maxHeight" format="dimension" />
+        <attr name="android:maxHeight" />
+    </declare-styleable>
 </resources>

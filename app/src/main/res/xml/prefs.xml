@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory>
+        <Preference
+            app:summary="The base class of all preference classes"
+            app:title="Preference" />
+
+        <EditTextPreference
+            app:datastore="secure"
+            app:defaultValue="User"
+            app:key="edit_text_pref"
+            app:title="EditText Preference"
+            app:useSimpleSummaryProvider="true" />
+
+        <SeekBarPreference
+            app:key="seekbar_pref"
+            app:title="SeekBar Preference" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Two state Preferences">
+        <SwitchPreference
+            app:key="switch_pref"
+            app:summaryOff="OFF"
+            app:summaryOn="ON"
+            app:title="Switch Preference" />
+
+        <CheckBoxPreference
+            app:key="checkbox_pref"
+            app:summaryOff="Un-checked"
+            app:summaryOn="Checked"
+            app:title="CheckBox Preference" />
+    </PreferenceCategory>
+
+    <RadioButtonPreferenceGroup
+        app:checkedPreferenceKey="pref3"
+        app:title="Radio Button Group">
+
+        <RadioButtonPreference
+            app:key="pref1"
+            app:summary="Summary"
+            app:title="Radio Button Preference 1" />
+
+        <RadioButtonPreference
+            app:key="pref2"
+            app:summary="Summary"
+            app:title="Radio Button Preference 2" />
+
+        <RadioButtonPreference
+            app:key="pref3"
+            app:summary="Summary"
+            app:title="Radio Button Preference 3" />
+    </RadioButtonPreferenceGroup>
+
+    <PreferenceCategory>
+        <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/list_entries"
+            app:entryValues="@array/list_entry_values"
+            app:key="sdfdsf"
+            app:title="List Preference"
+            app:useSimpleSummaryProvider="true" />
+
+        <MultiSelectListPreference
+            app:entries="@array/list_entries"
+            app:entryValues="@array/list_entry_values"
+            app:key="sdfdsdsf"
+            app:title="MultiSelectListPreference" />
+
+        <DropDownPreference
+            app:defaultValue="0"
+            app:entries="@array/list_entries"
+            app:entryValues="@array/list_entry_values"
+            app:key="sdfdssf"
+            app:title="DropDownPreference"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <LayoutPreference
+            app:layout="@layout/layout_pref_sample"
+            app:selectable="true" />
+    </PreferenceCategory>
+</PreferenceScreen>
