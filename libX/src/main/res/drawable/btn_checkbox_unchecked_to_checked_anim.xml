@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:drawable="@drawable/sesl_btn_check_to_on_000">
+    android:drawable="@drawable/btn_checkbox_unchecked">
     <target
         android:name="circle_outline"
         android:animation="@anim/checkbox_to_checked_circle_outline_animation" />

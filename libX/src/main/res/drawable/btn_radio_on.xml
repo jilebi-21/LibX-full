@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="32.0dip"
-    android:height="32.0dip"
-    android:viewportWidth="96.0"
-    android:viewportHeight="96.0">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
     <group
         android:name="circle_inner_group"
-        android:pivotX="48.0"
-        android:pivotY="48.0">
+        android:pivotX="48"
+        android:pivotY="48">
         <path
             android:name="circle_inner"
             android:fillColor="?colorControlActivated"
-            android:pathData="M48,48m-17,0a17,17 0 1,0 34,0a17,17 0 1,0-34,0" />
+            android:pathData="M48,48m-17,0a17,17 0 1,0 34,0a17,17 0 1,0-34,0"
+            tools:fillColor="#690" />
     </group>
     <group
         android:name="circle_outline_group"
-        android:pivotX="48.0"
-        android:pivotY="48.0">
+        android:pivotX="48"
+        android:pivotY="48">
         <path
             android:name="circle_outline_normal"
             android:pathData="M48,48m-29.5,0a29.5,29.5 0 1,0 59,0a29.5,29.5 0 1,0-59,0"
-            android:strokeWidth="3.0"
+            android:strokeWidth="3"
             android:strokeColor="?colorControlNormal" />
         <path
             android:name="circle_outline"
             android:pathData="M48,48m-29.5,0a29.5,29.5 0 1,0 59,0a29.5,29.5 0 1,0-59,0"
-            android:strokeWidth="3.0"
-            android:strokeColor="?colorControlActivated" />
+            android:strokeWidth="3"
+            android:strokeColor="?colorControlActivated"
+            tools:strokeColor="#690" />
     </group>
 </vector>

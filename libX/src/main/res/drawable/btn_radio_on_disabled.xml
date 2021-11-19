@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:width="32.0dip"
     android:height="32.0dip"
     android:viewportWidth="96.0"
@@ -10,9 +11,10 @@
         android:pivotY="48.0">
         <path
             android:name="circle_inner"
-            android:fillAlpha="0.0"
+            android:fillAlpha="@dimen/disabled_color_alpha"
             android:fillColor="?colorControlActivated"
-            android:pathData="M48,48m-17,0a17,17 0 1,0 34,0a17,17 0 1,0-34,0" />
+            android:pathData="M48,48m-17,0a17,17 0 1,0 34,0a17,17 0 1,0-34,0"
+            tools:fillColor="#678" />
     </group>
     <group
         android:name="circle_outline_group"
@@ -22,12 +24,14 @@
             android:name="circle_outline_normal"
             android:pathData="M48,48m-29.5,0a29.5,29.5 0 1,0 59,0a29.5,29.5 0 1,0-59,0"
             android:strokeWidth="3.0"
+            android:strokeAlpha="0.0"
             android:strokeColor="?colorControlNormal" />
         <path
             android:name="circle_outline"
             android:pathData="M48,48m-29.5,0a29.5,29.5 0 1,0 59,0a29.5,29.5 0 1,0-59,0"
             android:strokeWidth="3.0"
-            android:strokeAlpha="0.0"
-            android:strokeColor="?colorControlActivated" />
+            android:strokeAlpha="@dimen/disabled_color_alpha"
+            android:strokeColor="?colorControlActivated"
+            tools:strokeColor="#678" />
     </group>
 </vector>

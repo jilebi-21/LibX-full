@@ -3,14 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Pruthvi/.gradle/caches/transforms-3/a41f65a1b182ec9e11a9bbe3d48996cb/transformed/appcompat-1.3.1/res/drawable/abc_btn_check_material_anim.xml" value="0.1" />
         <entry key="..\:/Users/Pruthvi/.gradle/caches/transforms-3/aa89ac495664da2633ad3b1b3ebb4378/transformed/preference-1.1.1/res/layout/preference.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/.gradle/caches/transforms-3/aa89ac495664da2633ad3b1b3ebb4378/transformed/preference-1.1.1/res/layout/preference_list_fragment.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/.gradle/caches/transforms-3/aa89ac495664da2633ad3b1b3ebb4378/transformed/preference-1.1.1/res/layout/preference_material.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/.gradle/caches/transforms-3/aa89ac495664da2633ad3b1b3ebb4378/transformed/preference-1.1.1/res/layout/preference_recyclerview.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/AppData/Local/Android/Sdk/platforms/android-31/data/res/drawable/control_background_40dp_material.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout-watch/preference_material.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_buttons.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_buttonsa.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_check_radio.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_pref_sample.xml" value="0.2356164383561644" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_progress.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/menu/main_menu.xml" value="0.2388888888888889" />
@@ -33,6 +36,20 @@
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/bg_rounded_bottom.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/bg_rounded_middle.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/bg_rounded_top.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_check.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_check_material_anim.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_checkbox.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_checkbox_checked.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_checkbox_checked_disabled.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_checkbox_checked_mtrl.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_checkbox_checked_to_unchecked_anim.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_checkbox_unchecked.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_checkbox_unchecked_disabled.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_checkbox_unchecked_mtrl.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_checkbox_unchecked_to_checked_anim.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_radio.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/ic_samsung_arrow_left.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/list_item_divider.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/sesl_action_bar_item_background.xml" value="0.25324074074074077" />
@@ -85,11 +102,14 @@
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/sesl_vector_drawable_progress_indeterminate_horizontal.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/layout_preference.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/layout_preference_frame.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/preference_category.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/preference_dropdown.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/preference_layout.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/preference_list_fragment.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/preference_radio.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/preference_widget_checkbox.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/preference_widget_radiobutton.xml" value="0.2356164383561644" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/preference_widget_seekbar.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/preference_widget_switch.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/samsung_toolbar_toolbarlayout.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/samsung_toolbarlayout_main_toolbar.xml" value="0.2388888888888889" />

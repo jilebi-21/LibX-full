@@ -31,6 +31,12 @@
 
     <include layout="@layout/layout_progress" />
 
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:text="CheckBox and RadioButtons" />
+
+    <include layout="@layout/layout_check_radio" />
+
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"

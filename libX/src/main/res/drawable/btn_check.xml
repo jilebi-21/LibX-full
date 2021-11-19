@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Disabled -->
     <item
-        android:drawable="@drawable/sesl_btn_check_to_on_025"
+        android:drawable="@drawable/btn_checkbox_checked_disabled"
         android:state_checked="true"
         android:state_enabled="false" />
     <item
-        android:drawable="@drawable/sesl_btn_check_to_on_001"
+        android:drawable="@drawable/btn_checkbox_unchecked_disabled"
+        android:state_checked="false"
         android:state_enabled="false" />
+
+    <!-- Enabled -->
     <item
         android:id="@id/checked"
-        android:drawable="@drawable/sesl_btn_check_to_on_026"
+        android:drawable="@drawable/btn_checkbox_checked"
         android:state_checked="true" />
     <item
         android:id="@id/unchecked"
-        android:drawable="@drawable/sesl_btn_check_to_on_000"
+        android:drawable="@drawable/btn_checkbox_unchecked"
         android:state_checked="false" />
     <transition
-        android:drawable="@drawable/sesl_btn_check_to_on_024"
+        android:drawable="@drawable/btn_checkbox_unchecked_to_checked_anim"
         android:fromId="@id/unchecked"
         android:toId="@id/checked" />
     <transition
-        android:drawable="@drawable/sesl_btn_check_to_on_002"
+        android:drawable="@drawable/btn_checkbox_checked_to_unchecked_anim"
         android:fromId="@id/checked"
         android:toId="@id/unchecked" />
 </animated-selector>

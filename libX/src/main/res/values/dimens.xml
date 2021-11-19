@@ -7,7 +7,7 @@
     <dimen name="radius_xl">28dp</dimen>
     <dimen name="radius_xxl">33dp</dimen>
 
-    <item name="sesl_disabled_color_alpha" type="dimen">0.4</item>
+    <item name="disabled_color_alpha" format="float" type="dimen">0.4</item>
 
     <dimen name="sesl_progress_bar_height">3.0dip</dimen>
     <dimen name="sesl_progress_bar_min_height">16.0dip</dimen>

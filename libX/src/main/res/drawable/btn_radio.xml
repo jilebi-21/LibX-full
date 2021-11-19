@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Disabled -->
     <item
-        android:drawable="@drawable/sesl_btn_radio_to_on_025"
+        android:drawable="@drawable/btn_radio_on_disabled"
         android:state_checked="true"
         android:state_enabled="false" />
     <item
-        android:drawable="@drawable/sesl_btn_radio_to_on_001"
+        android:drawable="@drawable/btn_radio_off_disabled"
+        android:state_checked="false"
         android:state_enabled="false" />
+
+    <!-- Enabled -->
     <item
         android:id="@id/on"
-        android:drawable="@drawable/sesl_btn_radio_to_on_026"
+        android:drawable="@drawable/btn_radio_on"
         android:state_checked="true" />
     <item
         android:id="@id/off"
-        android:drawable="@drawable/sesl_btn_radio_to_on_000"
+        android:drawable="@drawable/btn_radio_off"
         android:state_checked="false" />
     <transition
-        android:drawable="@drawable/sesl_btn_radio_to_on_024"
+        android:drawable="@drawable/btn_radio_off_to_on_anim"
         android:fromId="@id/off"
         android:toId="@id/on" />
     <transition
-        android:drawable="@drawable/sesl_btn_radio_to_on_002"
+        android:drawable="@drawable/btn_radio_on_to_off_anim"
         android:fromId="@id/on"
         android:toId="@id/off" />
 </animated-selector>
