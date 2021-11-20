@@ -12,6 +12,8 @@
         <item name="android:windowLightStatusBar">?isLightTheme</item>
         <item name="android:windowLightNavigationBar">?isLightTheme</item>
 
+        <item name="rippleColor">@color/ripple_color</item>
+
         <item name="android:progressBarStyle">@style/ProgressBarXStyle</item>
         <item name="android:progressBarStyleHorizontal">@style/ProgressBarXStyle.Horizontal</item>
         <item name="android:progressBarStyleSmall">@style/ProgressBarXStyle.Small</item>

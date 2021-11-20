@@ -14,6 +14,7 @@
     <color name="sesl_white">#fafafa</color>
     <color name="sesl_black">#252525</color>
     <color name="divider_color">#ff979797</color>
+    <color name="ripple_color">#e1e1e1</color>
 
     <color name="background_color">#f2f2f2</color>
     <color name="item_background_color">#ffffff</color>
@@ -38,9 +39,7 @@
     <color name="switch_track_off_disabled_stroke_color">#668c8c8c</color>
 
     <!-- Button -->
-    <color name="button_ripple_color">#e1e1e1</color>
-    <color name="button_background_color">#4dcccccc</color>
-    <color name="sesl_btn_default_text_color">@color/sesl_black</color>
+    <color name="btn_default_text_color">@color/sesl_black</color>
 
     <!-- Seekbar -->
     <color name="sesl_seekbar_disable_color_activated">#ffd2d2d2</color>
