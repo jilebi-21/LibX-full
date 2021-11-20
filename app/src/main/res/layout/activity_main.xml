@@ -27,6 +27,12 @@
 
     <TextView
         style="?android:listSeparatorTextViewStyle"
+        android:text="Switch" />
+
+    <include layout="@layout/layout_switch" />
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
         android:text="Progress bars" />
 
     <include layout="@layout/layout_progress" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="sesl_off_text">Off</string>
-    <string name="sesl_on_text">On</string>
+    <string name="switch_text_off">Off</string>
+    <string name="switch_text_on">On</string>
 </resources>
