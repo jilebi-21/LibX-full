@@ -38,7 +38,7 @@
         <item name="android:textColor">@color/sesl_list_subheader_text_color</item>
         <item name="android:ellipsize">end</item>
         <item name="android:gravity">center_vertical</item>
-        <item name="android:background">@color/background_color</item>
+        <item name="android:background">@color/surface_color</item>
         <item name="android:paddingTop">@dimen/sesl_list_subheader_padding_top</item>
         <item name="android:paddingBottom">@dimen/sesl_list_subheader_padding_bottom</item>
         <item name="android:layout_width">fill_parent</item>
@@ -119,9 +119,9 @@
 
     <!-- CardView -->
     <style name="CardViewStyle" parent="Widget.MaterialComponents.CardView">
-        <item name="cardCornerRadius">26dp</item>
+        <item name="cardCornerRadius">@dimen/radius_large</item>
         <item name="cardElevation">0dp</item>
-        <item name="cardBackgroundColor">@color/item_background_color</item>
+        <item name="cardBackgroundColor">?colorSurfaceVariant</item>
     </style>
 
     <!-- CheckBox -->
@@ -194,7 +194,7 @@
     </style>
 
     <style name="CollapsingToolbarLayoutStyle" parent="@android:style/Widget">
-        <item name="android:background">@color/toolbar_background_color</item>
+        <item name="android:background">?colorSurface</item>
         <item name="android:minHeight">?actionBarSize</item>
         <item name="expandedTitleTextAppearance">@style/ToolbarExpandedTitleTextStyle</item>
         <item name="collapsedTitleTextAppearance">@style/ToolbarCollapsedTitleTextStyle</item>
@@ -203,7 +203,7 @@
 
     <style name="ToolbarStyle" parent="Widget.MaterialComponents.Toolbar">
         <item name="android:minHeight">?actionBarSize</item>
-        <item name="background">@color/toolbar_background_color</item>
+        <item name="background">?colorSurface</item>
         <item name="contentInsetStart">0dp</item>
         <item name="android:contentInsetStart">0dp</item>
         <item name="contentInsetEnd">0dip</item>
@@ -227,14 +227,14 @@
     <style name="ToolbarCollapsedTitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textSize">@dimen/toolbar_title_text_size</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/toolbar_title_text_color</item>
+        <item name="android:textColor">?textColorPrimary</item>
         <item name="textAllCaps">false</item>
     </style>
 
     <style name="ToolbarCollapsedSubtitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
         <item name="android:textSize">@dimen/toolbar_subtitle_text_size</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/toolbar_subtitle_text_color</item>
+        <item name="android:textColor">?textColorSecondary</item>
         <item name="textAllCaps">false</item>
     </style>
 

@@ -3,7 +3,7 @@
     android:color="?android:attr/colorControlHighlight">
     <item android:id="@android:id/mask">
         <shape>
-            <solid android:color="@color/ripple_color" />
+            <solid android:color="?itemRippleColor" />
             <corners
                 android:bottomLeftRadius="@dimen/preference_item_opposite_corner_radius"
                 android:bottomRightRadius="@dimen/preference_item_opposite_corner_radius"
@@ -13,7 +13,7 @@
     </item>
     <item android:id="@android:id/background">
         <shape>
-            <solid android:color="@color/item_background_color" />
+            <solid android:color="@color/surface_color_variant" />
         </shape>
     </item>
 </ripple>

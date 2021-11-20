@@ -3,16 +3,21 @@
 
     <style name="FreakyAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/primary_color</item>
-        <item name="colorPrimaryDark">@color/primary_dark_color</item>
         <item name="colorSecondary">@color/secondary_color</item>
-        <item name="colorSurface">@color/background_color</item>
-        <item name="android:windowBackground">@color/background_color</item>
-        <item name="android:statusBarColor">@color/background_color</item>
-        <item name="android:navigationBarColor">@color/background_color</item>
+        <item name="colorSurface">@color/surface_color</item>
+        <item name="colorSurfaceVariant">@color/surface_color_variant</item>
+        <item name="android:windowBackground">@color/surface_color</item>
+        <item name="android:statusBarColor">@color/surface_color</item>
+        <item name="android:navigationBarColor">@color/surface_color</item>
         <item name="android:windowLightStatusBar">?isLightTheme</item>
         <item name="android:windowLightNavigationBar">?isLightTheme</item>
 
         <item name="rippleColor">@color/ripple_color</item>
+        <item name="itemRippleColor">@color/ripple_color</item>
+        <item name="textColorPrimary">@color/text_color</item>
+        <item name="textColorPrimaryInverse">@color/text_color_inverse</item>
+        <item name="textColorSecondary">@color/text_color_secondary</item>
+        <item name="textColorSecondaryInverse">@color/text_color_secondary_inverse</item>
 
         <item name="android:progressBarStyle">@style/ProgressBarXStyle</item>
         <item name="android:progressBarStyleHorizontal">@style/ProgressBarXStyle.Horizontal</item>

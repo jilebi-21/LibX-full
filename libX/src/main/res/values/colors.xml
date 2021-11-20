@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary_color">#ff0381fe</color>
-    <color name="secondary_color">#ff3e91ff</color>
-    <color name="primary_dark_color">#ff0072de</color>
-
-    <color name="sesl_seekbar_control_color_normal">#4d0381fe</color>
-    <color name="sesl_seekbar_control_color_secondary">#ff7ab9cb</color>
-    <color name="sesl_seekbar_control_color_activated">#ff0381fe</color>
-
-    <color name="sesl_loading_progress_color1">#ff06b485</color>
-    <color name="sesl_loading_progress_color2">?colorPrimary</color>
-
-    <color name="sesl_white">#fafafa</color>
-    <color name="sesl_black">#252525</color>
+    <color name="primary_color">#00f801</color>
+    <color name="secondary_color">#64DD17</color>
+    <color name="surface_color">#f2f2f2</color>
+    <color name="surface_color_variant">#ffffff</color>
     <color name="divider_color">#ff979797</color>
     <color name="ripple_color">#e1e1e1</color>
 
-    <color name="background_color">#f2f2f2</color>
-    <color name="item_background_color">#ffffff</color>
-    <color name="item_color">@color/sesl_black</color>
-    <color name="sesl_list_subheader_text_color">#ff8c8c8c</color>
+    <color name="sesl_seekbar_control_color_normal">#4d0381fe</color>
+    <color name="sesl_seekbar_control_color_secondary">#7ab9cb</color>
+    <color name="sesl_seekbar_control_color_activated">#0381fe</color>
 
-    <color name="text_color_primary">#252525</color>
+    <color name="progress_color1">?colorPrimary</color>
+    <color name="progress_color2">?colorSecondary</color>
+
+    <color name="light_color">#fafafa</color>
+    <color name="dark_color">#252525</color>
+
+    <color name="sesl_list_subheader_text_color">#8c8c8c</color>
+
+    <color name="text_color">@color/dark_color</color>
+    <color name="text_color_inverse">@color/light_color</color>
     <color name="text_color_secondary">#636363</color>
+    <color name="text_color_secondary_inverse">#9c9c9c</color>
 
     <!--Switch-->
     <color name="switch_thumb_on_color">#fafafa</color>
@@ -38,30 +38,18 @@
     <color name="switch_track_off_disabled_color">#00ffffff</color>
     <color name="switch_track_off_disabled_stroke_color">#668c8c8c</color>
 
-    <!-- Button -->
-    <color name="btn_default_text_color">@color/sesl_black</color>
-
     <!-- Seekbar -->
-    <color name="sesl_seekbar_disable_color_activated">#ffd2d2d2</color>
+    <color name="sesl_seekbar_disable_color_activated">#d2d2d2</color>
 
     <!--Spinner-->
     <color name="sesl_menu_popup_background_color">#fffcfcfc</color>
     <color name="sesl_menu_popup_background_stroke_color">#fffcfcfc</color>
-    <color name="sesl_popup_menu_item_text_color_checked">?colorPrimaryDark</color>
-    <color name="sesl_spinner_dropdown_item_checkmark">?colorPrimaryDark</color>
+    <color name="sesl_popup_menu_item_text_color_checked">?colorPrimary</color>
+    <color name="sesl_spinner_dropdown_item_checkmark">?colorPrimary</color>
     <color name="sesl_spinner_dropdown_item_text_color_disabled">#66000000</color>
     <color name="sesl_spinner_dropdown_item_text_color_normal">#ff000000</color>
     <color name="sesl_spinner_icon_color_default">#ff3b3b3b</color>
     <color name="sesl_spinner_icon_color_disabled">#663b3b3b</color>
     <color name="sesl_spinner_item_text_color_disabled">#66252525</color>
-    <color name="sesl_spinner_item_text_color_normal">@color/sesl_black</color>
-
-    <!-- AppBarLayout, Toolbar -->
-    <color name="toolbar_background_color">@color/background_color</color>
-    <color name="toolbar_title_text_color">@color/text_color_primary</color>
-    <color name="toolbar_subtitle_text_color">@color/text_color_secondary</color>
-
-    <!-- Tab Layout -->
-    <color name="sesl_tablayout_text_color_default">#858585</color>
-    <color name="sesl_tablayout_text_color_disabled">#66858585</color>
+    <color name="sesl_spinner_item_text_color_normal">?textColorPrimary</color>
 </resources>

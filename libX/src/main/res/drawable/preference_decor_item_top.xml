@@ -13,7 +13,7 @@
     </item>
     <item android:id="@android:id/background">
         <shape>
-            <solid android:color="@color/item_background_color" />
+            <solid android:color="@color/surface_color_variant" />
             <corners
                 android:topLeftRadius="@dimen/preference_item_corner_radius"
                 android:topRightRadius="@dimen/preference_item_corner_radius" />

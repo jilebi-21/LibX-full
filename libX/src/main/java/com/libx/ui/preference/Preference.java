@@ -400,7 +400,7 @@ public class Preference implements Comparable<Preference> {
                     itemView.setBackgroundResource(R.drawable.preference_decor_item_single);
                     break;
                 default:
-                    itemView.setBackgroundColor(mContext.getResources().getColor(R.color.item_background_color, mContext.getTheme()));
+                    itemView.setBackgroundColor(mContext.getResources().getColor(R.color.surface_color_variant, mContext.getTheme()));
                     break;
             }
         }
