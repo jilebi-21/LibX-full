@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="@dimen/popup_menu_margin_vertical"
+        android:top="@dimen/popup_menu_margin_vertical">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="@dimen/popup_menu_stroke_width"
+                android:color="@color/popup_menu_background_stroke_color" />
+            <padding
+                android:bottom="@dimen/popup_menu_padding_vertical"
+                android:top="@dimen/popup_menu_padding_vertical" />
+            <corners android:radius="@dimen/popup_menu_corner_radius" />
+            <solid android:color="@color/popup_menu_background_color" />
+        </shape>
+    </item>
+</layer-list>

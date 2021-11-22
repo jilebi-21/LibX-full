@@ -6,6 +6,7 @@
         <item name="colorSecondary">@color/secondary_color</item>
         <item name="colorSurface">@color/surface_color</item>
         <item name="colorSurfaceVariant">@color/surface_color_variant</item>
+        <item name="colorSurfaceVariant2">@color/surface_color_variant2</item>
         <item name="android:windowBackground">@color/surface_color</item>
         <item name="android:statusBarColor">@color/surface_color</item>
         <item name="android:navigationBarColor">@color/surface_color</item>
@@ -54,7 +55,7 @@
         <item name="spinnerStyle">@style/SpinnerStyle</item>
         <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemStyle</item>
         <item name="spinnerDropDownItemStyle">@style/SpinnerDropDownItemStyle</item>
-        <item name="dropdownListPreferredItemHeight">@dimen/sesl_popup_menu_item_min_height</item>
+        <item name="dropdownListPreferredItemHeight">@dimen/popup_menu_item_min_height</item>
 
         <item name="appBarLayoutStyle">@style/AppBarLayoutStyle</item>
         <item name="collapsingToolbarLayoutStyle">@style/CollapsingToolbarLayoutStyle</item>

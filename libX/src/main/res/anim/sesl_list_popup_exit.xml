@@ -6,11 +6,11 @@
         android:fromXScale="100.0%"
         android:fromYScale="100.0%"
         android:interpolator="@interpolator/sine_in_out_33"
-        android:pivotX="50.0%"
+        android:pivotX="50%"
         android:toXScale="79.99999%"
         android:toYScale="79.99999%" />
     <alpha
         android:duration="250"
-        android:fromAlpha="1.0"
-        android:toAlpha="0.0" />
+        android:fromAlpha="1"
+        android:toAlpha="0" />
 </set>

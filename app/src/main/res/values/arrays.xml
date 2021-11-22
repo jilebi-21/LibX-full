@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="spinner_sample_entries">
-        <item>Item 1</item>
-        <item>Item 2</item>
-        <item>Item 3</item>
-        <item>Item 4</item>
-        <item>Item 5</item>
-        <item>Item 6</item>
-        <item>Item 7</item>
-        <item>Item 8</item>
-        <item>Item 9</item>
-        <item>Item 10</item>
-        <item>Item 11</item>
+        <item>List item 1</item>
+        <item>List item 2</item>
+        <item>List item 3</item>
+        <item>List item 4</item>
+        <item>List item 5</item>
+        <item>List item 6</item>
+        <item>List item 7</item>
+        <item>List item 8</item>
+        <item>List item 9</item>
+        <item>List item 10</item>
+        <item>List item 11</item>
+        <item>List item 12</item>
+        <item>List item 13</item>
+        <item>List item 14</item>
+        <item>List item 15</item>
     </string-array>
 
     <string-array name="list_entries">
