@@ -63,6 +63,9 @@
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_radio_off_to_on_anim.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_radio_on.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_transparent.xml" value="0.25324074074074077" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/dialog_background.xml" value="0.25324074074074077" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/dialog_list_item_mask.xml" value="0.25324074074074077" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/dialog_scrollbar_handle.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/ic_samsung_arrow_left.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/list_item_divider.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/menu_popup_background.xml" value="0.2497716894977169" />
@@ -94,8 +97,10 @@
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/sesl_btn_transparent_background.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/sesl_control_background.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/sesl_dialog_background.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/sesl_dialog_btn_default_borderless.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/sesl_dialog_btn_default_ripple_shape_mask.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/sesl_dialog_button_disabled_anim.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/sesl_dialog_scrollbar_handle.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/sesl_list_divider.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/sesl_menu_popup_background.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/sesl_progress.xml" value="0.28489583333333335" />
@@ -143,10 +148,12 @@
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_track_off.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_track_on.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_track_selector.xml" value="0.25324074074074077" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/alert_dialog.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/layout_preference.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/layout_preference_frame.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/menu_popup_item_layout.xml" value="0.2356164383561644" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/preference_category.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/preference_dialog_edittext.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/preference_dropdown.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/preference_layout.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/preference_list_fragment.xml" value="0.2388888888888889" />
@@ -158,6 +165,10 @@
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/samsung_toolbar_toolbarlayout.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/samsung_toolbarlayout_main_toolbar.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/samsung_toolbarlayout_search_toolbar.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/select_dialog.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/select_dialog_item.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/select_dialog_multichoice.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/select_dialog_singlechoice.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/sesl_alert_dialog.xml" value="0.2356164383561644" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/sesl_preference.xml" value="0.22" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/sesl_preference_category.xml" value="0.2388888888888889" />
@@ -167,6 +178,9 @@
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/sesl_preference_widget_checkbox.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/sesl_preference_widget_seekbar.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/sesl_preference_widget_switch.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/sesl_select_dialog_item.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/sesl_select_dialog_multichoice.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/sesl_select_dialog_singlechoice.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/sesl_simple_spinner_dropdown_item.xml" value="0.2356164383561644" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/sesl_switch_preference_screen.xml" value="0.33" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/layout/sesl_switch_preference_screen_large.xml" value="0.2388888888888889" />

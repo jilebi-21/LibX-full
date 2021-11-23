@@ -2,4 +2,10 @@
 <resources>
     <integer name="sesl_loading_progress_anim_duration">750</integer>
     <integer name="sesl_loading_progress_rot_duration">3000</integer>
+
+    <integer name="dialog_enter_translation_anim_duration">300</integer>
+    <integer name="dialog_enter_alpha_anim_duration">150</integer>
+    <integer name="dialog_exit_translation_anim_duration">300</integer>
+    <integer name="dialog_exit_alpha_anim_duration">100</integer>
+
 </resources>

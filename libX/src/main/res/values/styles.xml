@@ -241,6 +241,97 @@
         <item name="android:textSize">@dimen/appbar_expanded_subtitle_text_size</item>
     </style>
 
+    <!-- Dialog -->
+    <style name="DialogAnimStyle" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_anim</item>
+    </style>
+
+    <style name="DialogTitleStyle" parent="@android:style/Widget">
+        <item name="android:textSize">@dimen/dialog_title_text_size</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="DialogTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/dialog_body_text_size</item>
+        <item name="android:textColor">@color/dialog_body_text_color</item>
+    </style>
+
+    <style name="DialogTextInverseStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+
+    <style name="DialogTextListItemStyle" parent="@style/DialogTextStyle">
+        <item name="android:textSize">@dimen/select_dialog_list_item_text_size</item>
+        <item name="android:textColor">@color/select_dialog_list_item_text</item>
+    </style>
+
+    <style name="DialogTextListItemSecondaryStyle" parent="@style/DialogTextListItemStyle">
+        <item name="android:textSize">@dimen/select_dialog_list_item_text_size_secondary</item>
+        <item name="android:textColor">@color/dialog_sub_text_color_material</item>
+    </style>
+
+    <style name="DialogButtonStyle" parent="ButtonStyle.Text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:minWidth">@dimen/dialog_button_min_width</item>
+        <item name="android:minHeight">@dimen/dialog_button_min_height</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="AlertDialogStyle" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:layout">@layout/alert_dialog</item>
+        <item name="listItemLayout">@layout/select_dialog_item</item>
+        <item name="listLayout">@layout/select_dialog</item>
+        <item name="multiChoiceItemLayout">@layout/select_dialog_multichoice</item>
+        <item name="singleChoiceItemLayout">@layout/select_dialog_singlechoice</item>
+    </style>
+
+    <style name="DialogTheme" parent="Base.ThemeOverlay.AppCompat">
+        <item name="android:backgroundDimAmount">@dimen/dialog_background_dim_amount</item>
+        <item name="android:textAppearanceInverse">@style/DialogTextInverseStyle</item>
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/DialogTitleStyle</item>
+        <item name="android:textAppearance">@style/DialogTextStyle</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/dialog_scrollbar_handle</item>
+        <item name="android:scrollbarThumbVertical">@drawable/dialog_scrollbar_handle</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimStyle</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowElevation">@dimen/dialog_window_elevation</item>
+        <item name="borderlessButtonStyle">@style/ButtonStyle</item>
+        <item name="colorControlHighlight">@color/ripple_color</item>
+        <item name="dialogPreferredPadding">@dimen/dialog_padding</item>
+        <item name="listPreferredItemHeightSmall">@dimen/list_preferred_item_height_small</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/select_dialog_padding_start</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/select_dialog_padding_end</item>
+        <item name="listPreferredItemPaddingLeft">@dimen/select_dialog_padding_start</item>
+        <item name="listPreferredItemPaddingStart">@dimen/select_dialog_padding_start</item>
+        <item name="listPreferredItemPaddingRight">@dimen/select_dialog_padding_end</item>
+        <item name="listPreferredItemPaddingEnd">@dimen/select_dialog_padding_end</item>
+        <item name="textAppearanceListItem">@style/DialogTextListItemStyle</item>
+        <item name="textAppearanceListItemSecondary">@style/DialogTextListItemSecondaryStyle</item>
+        <item name="textAppearanceListItemSmall">@style/DialogTextListItemStyle</item>
+        <item name="textColorAlertDialogListItem">@color/select_dialog_list_item_text</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowMinWidthMajor">@dimen/dialog_min_width_major</item>
+        <item name="windowMinWidthMinor">@dimen/dialog_min_width_minor</item>
+        <item name="android:windowMinWidthMajor">@dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/dialog_min_width_minor</item>
+    </style>
+
     <!-- Preferences -->
     <style name="PreferenceThemeStyle" parent="PreferenceThemeOverlay">
         <item name="preferenceStyle">@style/PreferenceStyle</item>

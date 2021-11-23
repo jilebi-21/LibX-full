@@ -68,15 +68,48 @@
     <dimen name="preference_item_padding_vertical">14dp</dimen>
     <dimen name="preference_widget_frame_min_width">32dp</dimen>
     <dimen name="preference_widget_padding_start">16dp</dimen>
-    <dimen name="preference_edittext_padding_top">18dp</dimen>
-    <dimen name="preference_edittext_padding_bottom">24dp</dimen>
-    <dimen name="preference_edittext_message_margin_bottom">48dp</dimen>
     <dimen name="preference_edittext_container_padding_horizontal">24dp</dimen>
-    <dimen name="preference_edittext_container_padding_top">18dp</dimen>
     <dimen name="preference_edittext_container_padding_bottom">8dp</dimen>
     <dimen name="preference_switch_widget_divider_width">1px</dimen>
     <dimen name="list_item_padding_start">20dp</dimen>
     <dimen name="list_item_padding_end">20dp</dimen>
     <dimen name="list_item_divider_inset_horizontal">20dp</dimen>
     <dimen name="list_item_divider_height">1px</dimen>
+
+    <!-- AlertDialog -->
+    <dimen name="dialog_padding">24dp</dimen>
+    <dimen name="select_dialog_item_padding_horizontal">6dp</dimen>
+    <dimen name="select_dialog_item_padding_vertical">14dp</dimen>
+    <dimen name="select_dialog_list_item_text_size">18sp</dimen>
+    <dimen name="select_dialog_list_item_text_size_secondary">13sp</dimen>
+    <dimen name="select_dialog_padding_start">18dp</dimen>
+    <dimen name="select_dialog_padding_top">18dp</dimen>
+    <dimen name="select_dialog_padding_end">24dp</dimen>
+    <dimen name="select_dialog_padding_bottom">24dp</dimen>
+    <dimen name="list_preferred_item_height_small">56dp</dimen>
+    <item name="dialog_background_dim_amount" format="float" type="dimen">0.65</item>
+    <item name="dialog_min_width_major" type="dimen">60%</item>
+    <item name="dialog_min_width_minor" type="dimen">100%</item>
+    <dimen name="dialog_window_elevation">1dp</dimen>
+    <dimen name="dialog_background_inset_bottom">16dp</dimen>
+    <dimen name="dialog_layout_padding_top">24dp</dimen>
+    <dimen name="dialog_layout_padding_bottom">16dp</dimen>
+    <dimen name="dialog_layout_padding_horizontal">24dp</dimen>
+    <dimen name="dialog_icon_size">32dp</dimen>
+    <dimen name="dialog_title_padding_bottom">18dp</dimen>
+    <dimen name="dialog_title_text_size">20sp</dimen>
+    <dimen name="dialog_content_pane_min_height">24dp</dimen>
+    <dimen name="dialog_body_text_size">16sp</dimen>
+    <dimen name="dialog_body_padding_horizontal">20dp</dimen>
+    <dimen name="dialog_body_padding_bottom">24dp</dimen>
+    <dimen name="dialog_body_margin_horizontal">4dp</dimen>
+    <dimen name="dialog_body_line_spacing_extra">4sp</dimen>
+    <dimen name="dialog_custom_panel_min_height">48dp</dimen>
+    <dimen name="dialog_button_bar_padding_bottom">20dp</dimen>
+    <dimen name="dialog_button_bar_padding_horizontal">24dp</dimen>
+    <dimen name="dialog_button_min_height">36dp</dimen>
+    <dimen name="dialog_button_min_width">42dp</dimen>
+    <dimen name="dialog_button_layout_divider_margin">4dp</dimen>
+    <dimen name="dialog_button_layout_divider_height">16dp</dimen>
+
 </resources>

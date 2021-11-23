@@ -49,4 +49,9 @@
     <color name="spinner_icon_color_default">#3b3b3b</color>
     <color name="spinner_icon_color_disabled">#663b3b3b</color>
     <color name="spinner_dropdown_item_text_color_normal">?textColorPrimary</color>
+
+    <!-- Dialog -->
+    <color name="dialog_body_text_color">#505050</color>
+    <color name="dialog_scrollbar_handle_tint_color_mtrl">#dedede</color>
+    <color name="dialog_sub_text_color_material">#3b3b3b</color>
 </resources>

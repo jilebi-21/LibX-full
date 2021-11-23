@@ -19,7 +19,8 @@ package com.libx.ui.preference;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
+
+import com.libx.ui.dialog.AlertDialog;
 
 import java.util.ArrayList;
 import java.util.HashSet;

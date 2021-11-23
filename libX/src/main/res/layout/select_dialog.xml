@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/select_dialog_listview"
+    class="com.libx.ui.dialog.AlertController$RecycleListView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5px"
+    android:cacheColorHint="@null"
+    android:divider="?android:attr/listDividerAlertDialog"
+    android:overScrollMode="ifContentScrolls"
+    android:scrollbars="vertical"
+    android:textAlignment="viewStart"
+    tools:ignore="PxUsage" />

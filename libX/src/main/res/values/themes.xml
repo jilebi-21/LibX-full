@@ -51,6 +51,8 @@
         <item name="checkboxStyle">@style/CheckBoxStyle</item>
         <item name="android:radioButtonStyle">@style/RadioButtonStyle</item>
         <item name="radioButtonStyle">@style/RadioButtonStyle</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check</item>
 
         <item name="spinnerStyle">@style/SpinnerStyle</item>
         <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemStyle</item>
@@ -61,6 +63,12 @@
         <item name="collapsingToolbarLayoutStyle">@style/CollapsingToolbarLayoutStyle</item>
         <item name="android:toolbarStyle">@style/ToolbarStyle</item>
         <item name="toolbarStyle">@style/ToolbarStyle</item>
+
+        <item name="dialogTheme">@style/DialogTheme</item>
+        <item name="dialogPreferredPadding">@dimen/dialog_padding</item>
+        <item name="buttonBarButtonStyle">@style/DialogButtonStyle</item>
+        <item name="alertDialogTheme">@style/DialogTheme</item>
+        <item name="alertDialogStyle">@style/AlertDialogStyle</item>
 
         <item name="preferenceTheme">@style/PreferenceThemeStyle</item>
     </style>

@@ -31,4 +31,9 @@
     <!--Spinner-->
     <color name="spinner_icon_color_default">#d9d9d9</color>
     <color name="spinner_icon_color_disabled">#66d9d9d9</color>
+
+    <!-- Dialog -->
+    <color name="dialog_body_text_color">#e5e5e5</color>
+    <color name="dialog_scrollbar_handle_tint_color_mtrl">#595959</color>
+    <color name="dialog_sub_text_color_material">#666666</color>
 </resources>

@@ -20,7 +20,8 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
+
+import com.libx.ui.dialog.AlertDialog;
 
 public class ListPreferenceDialogFragmentCompat extends PreferenceDialogFragmentCompat {
 

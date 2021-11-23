@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableStart="?android:listChoiceIndicatorMultiple"
+    android:drawablePadding="18dp"
+    android:ellipsize="marquee"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="@dimen/dialog_layout_padding_horizontal"
+    android:minHeight="?android:listPreferredItemHeightSmall"
+    android:textAppearance="?textAppearanceListItem" />

@@ -41,7 +41,6 @@ import android.widget.SpinnerAdapter;
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.content.res.AppCompatResources;
 import androidx.appcompat.view.ContextThemeWrapper;
 import androidx.appcompat.view.menu.ShowableListMenu;
@@ -54,6 +53,7 @@ import androidx.appcompat.widget.ViewUtils;
 import androidx.core.view.ViewCompat;
 
 import com.libx.ui.R;
+import com.libx.ui.dialog.AlertDialog;
 import com.libx.ui.utils.ReflectUtils;
 
 import java.lang.reflect.Field;
