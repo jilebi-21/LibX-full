@@ -5,6 +5,7 @@ import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import android.view.View
 import android.view.ViewGroup
+import android.widget.FrameLayout
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.widget.Toolbar
@@ -36,6 +37,8 @@ class ToolbarLayout(
     private val collapsedSubTitleView: MaterialTextView
     private val mainContainer: LinearLayout?
 
+    private val footerContainer: FrameLayout?
+
     var title: CharSequence? = null
         set(value) {
             field = value
@@ -63,9 +66,9 @@ class ToolbarLayout(
         }
 
     init {
-        val attr = context.theme.obtainStyledAttributes(attrs, R.styleable.ToolBarLayout, 0, 0)
-        expandable = attr.getBoolean(R.styleable.ToolBarLayout_expandable, true)
-        isExpanded = attr.getBoolean(R.styleable.ToolBarLayout_expanded, false)
+        val typedArray = context.theme.obtainStyledAttributes(attrs, R.styleable.ToolBarLayout, 0, 0)
+        expandable = typedArray.getBoolean(R.styleable.ToolBarLayout_expandable, true)
+        isExpanded = typedArray.getBoolean(R.styleable.ToolBarLayout_expanded, false)
 
         val layoutRes = if (expandable) R.layout.toolbar_layout_expandable else R.layout.toolbar_layout_standard
         inflate(context, layoutRes, this)
@@ -75,6 +78,7 @@ class ToolbarLayout(
         collapsedTitleContainer = findViewById(R.id.tl_collapsed_title_container)
         collapsedSubTitleView = findViewById(R.id.tl_collapsed_subtitle)
         mainContainer = findViewById(R.id.tl_main_container)
+        footerContainer = findViewById(R.id.tl_footer)
 
         //These will be null if expandable is false
         appBarLayout = findViewById(R.id.tl_app_bar)
@@ -83,10 +87,10 @@ class ToolbarLayout(
         expandedTitleView = findViewById(R.id.tl_expanded_title)
         expandedSubTitleView = findViewById(R.id.tl_expanded_subtitle)
 
-        navigationIcon = attr.getDrawable(R.styleable.ToolBarLayout_navigationIcon)
-        title = attr.getString(R.styleable.ToolBarLayout_title)
-        subtitle = attr.getString(R.styleable.ToolBarLayout_subtitle)
-        attr.recycle()
+        navigationIcon = typedArray.getDrawable(R.styleable.ToolBarLayout_navigationIcon)
+        title = typedArray.getString(R.styleable.ToolBarLayout_title)
+        subtitle = typedArray.getString(R.styleable.ToolBarLayout_subtitle)
+        typedArray.recycle()
 
         appBarLayout?.setExpanded(isExpanded)
         appBarLayout?.addOnOffsetChangedListener(CollapsedLayoutOffsetListener())
@@ -97,16 +101,41 @@ class ToolbarLayout(
     }
 
     override fun addView(child: View, index: Int, params: ViewGroup.LayoutParams) {
-        if (mainContainer == null) {
+        if (mainContainer == null || footerContainer == null) {
             super.addView(child, index, params)
         } else {
-            mainContainer.addView(child, index, params)
+            val lp = params as LayoutParams
+            when (lp.layoutLocation) {
+                1 -> footerContainer.addView(child, index, params)
+                else -> mainContainer.addView(child, index, params)
+            }
         }
     }
 
     fun setExpanded(expanded: Boolean, animate: Boolean) {
         isExpanded = expanded
         appBarLayout?.setExpanded(expanded, animate)
+    }
+
+    override fun generateDefaultLayoutParams(): LayoutParams {
+        return LayoutParams(context, null)
+    }
+
+    override fun generateLayoutParams(attrs: AttributeSet?): LayoutParams {
+        return LayoutParams(context, attrs)
+    }
+
+    inner class LayoutParams(
+        context: Context?,
+        attrs: AttributeSet?
+    ) : LinearLayout.LayoutParams(context, attrs) {
+        val layoutLocation: Int
+
+        init {
+            val typedArray = context?.obtainStyledAttributes(attrs, R.styleable.ToolBarLayout_Layout)
+            layoutLocation = typedArray?.getInteger(R.styleable.ToolBarLayout_Layout_layout_location, 0) ?: 0
+            typedArray?.recycle()
+        }
     }
 
     private inner class CollapsedLayoutOffsetListener : OnOffsetChangedListener {
@@ -151,5 +180,7 @@ class ToolbarLayout(
 
     companion object {
         private const val TAG = "ToolbarLayout"
+
+        private const val NO_FOOTER_ID = -2
     }
 }

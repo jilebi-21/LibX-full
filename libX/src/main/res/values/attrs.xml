@@ -16,6 +16,13 @@
         <attr name="navigationIcon" format="reference" />
     </declare-styleable>
 
+    <declare-styleable name="ToolBarLayout_Layout">
+        <attr name="layout_location">
+            <enum name="custom_header" value="0" />
+            <enum name="footer" value="1" />
+        </attr>
+    </declare-styleable>
+
     <declare-styleable name="AlertDialog">
         <attr name="android:layout" />
         <attr name="buttonPanelSideLayout" format="reference" />
