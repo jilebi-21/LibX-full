@@ -1,109 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.libx.ui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="10dp"
+    app:backgroundColor="?colorSurfaceVariant"
+    app:cornerRadius="@dimen/radius_card">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginVertical="10dp"
-        android:orientation="vertical">
+        android:layout_marginStart="6dp"
+        android:padding="10dp"
+        android:text="Enabled" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="6dp"
-            android:padding="10dp"
-            android:text="Enabled" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-        <HorizontalScrollView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="3.5dp"
-                    android:text="Button" />
-
-                <Button
-                    style="@style/ButtonStyle.Text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="3.5dp"
-                    android:text="Text" />
-
-                <Button
-                    style="@style/ButtonStyle.Outlined"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="3.5dp"
-                    android:text="Outlined" />
-
-                <Button
-                    style="@style/ButtonStyle.Colored"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="3.5dp"
-                    android:text="Colored" />
-            </LinearLayout>
-        </HorizontalScrollView>
-
-        <TextView
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="6dp"
-            android:padding="10dp"
-            android:text="Disabled" />
+            android:gravity="center"
+            android:orientation="horizontal">
 
-        <androidx.core.widget.NestedScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:layout_width="match_parent"
+            <Button
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal">
+                android:layout_marginHorizontal="3.5dp"
+                android:text="Button" />
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="3.5dp"
-                    android:enabled="false"
-                    android:text="Button" />
+            <Button
+                style="@style/ButtonStyle.Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3.5dp"
+                android:text="Text" />
 
-                <Button
-                    style="@style/ButtonStyle.Text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="3.5dp"
-                    android:enabled="false"
-                    android:text="Text" />
+            <Button
+                style="@style/ButtonStyle.Outlined"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3.5dp"
+                android:text="Outlined" />
 
-                <Button
-                    style="@style/ButtonStyle.Outlined"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="3.5dp"
-                    android:enabled="false"
-                    android:text="Outlined" />
+            <Button
+                style="@style/ButtonStyle.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3.5dp"
+                android:text="Colored" />
+        </LinearLayout>
+    </HorizontalScrollView>
 
-                <Button
-                    style="@style/ButtonStyle.Colored"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="3.5dp"
-                    android:enabled="false"
-                    android:text="Colored" />
-            </LinearLayout>
-        </androidx.core.widget.NestedScrollView>
-    </LinearLayout>
-</com.google.android.material.card.MaterialCardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:padding="10dp"
+        android:text="Disabled" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3.5dp"
+                android:enabled="false"
+                android:text="Button" />
+
+            <Button
+                style="@style/ButtonStyle.Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3.5dp"
+                android:enabled="false"
+                android:text="Text" />
+
+            <Button
+                style="@style/ButtonStyle.Outlined"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3.5dp"
+                android:enabled="false"
+                android:text="Outlined" />
+
+            <Button
+                style="@style/ButtonStyle.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3.5dp"
+                android:enabled="false"
+                android:text="Colored" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.libx.ui.widget.XLinearLayout>
