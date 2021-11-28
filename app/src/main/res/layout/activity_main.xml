@@ -11,41 +11,54 @@
     app:title="Sample Title"
     tools:context=".MainActivity">
 
-    <com.libx.ui.views.SpinnerX
-        android:id="@+id/spinner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginHorizontal="16dp"
-        android:entries="@array/spinner_sample_entries" />
-
-    <TextView
-        style="?android:listSeparatorTextViewStyle"
-        android:text="Buttons" />
-
-    <include layout="@layout/layout_buttons" />
-
-    <TextView
-        style="?android:listSeparatorTextViewStyle"
-        android:text="Switch" />
-
-    <include layout="@layout/layout_switch" />
-
-    <TextView
-        style="?android:listSeparatorTextViewStyle"
-        android:text="Progress bars" />
-
-    <include layout="@layout/layout_progress" />
-
-    <TextView
-        style="?android:listSeparatorTextViewStyle"
-        android:text="CheckBox and RadioButtons" />
-
-    <include layout="@layout/layout_check_radio" />
-
-    <FrameLayout
-        android:id="@+id/fragment_container"
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:nestedScrollingEnabled="true" />
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.libx.ui.views.SpinnerX
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="16dp"
+                android:entries="@array/spinner_sample_entries"
+                app:layout_location="footer" />
+
+            <TextView
+                style="?android:listSeparatorTextViewStyle"
+                android:text="Buttons" />
+
+            <include layout="@layout/layout_buttons" />
+
+            <TextView
+                style="?android:listSeparatorTextViewStyle"
+                android:text="Switch" />
+
+            <include layout="@layout/layout_switch" />
+
+            <TextView
+                style="?android:listSeparatorTextViewStyle"
+                android:text="Progress bars" />
+
+            <include layout="@layout/layout_progress" />
+
+            <TextView
+                style="?android:listSeparatorTextViewStyle"
+                android:text="CheckBox and RadioButtons" />
+
+            <include layout="@layout/layout_check_radio" />
+
+            <FrameLayout
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="true" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
 </com.libx.ui.views.ToolbarLayout>
