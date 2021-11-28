@@ -7,6 +7,11 @@
     <attr name="textColorSecondary" format="color" />
     <attr name="textColorSecondaryInverse" format="color" />
 
+    <declare-styleable name="XLinearLayout">
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+
     <declare-styleable name="ToolBarLayout">
         <attr name="android:layout" />
         <attr name="title" format="string" />

@@ -6,6 +6,7 @@
     <dimen name="radius_large">22dp</dimen>
     <dimen name="radius_xl">28dp</dimen>
     <dimen name="radius_xxl">33dp</dimen>
+    <dimen name="radius_large_components">26dp</dimen>
 
     <item name="disabled_color_alpha" format="float" type="dimen">0.4</item>
 
