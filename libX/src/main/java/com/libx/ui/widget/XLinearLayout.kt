@@ -1,6 +1,7 @@
 package com.libx.ui.widget
 
 import android.content.Context
+import android.content.res.ColorStateList
 import android.util.AttributeSet
 import android.widget.LinearLayout
 import androidx.core.view.ViewCompat
@@ -13,6 +14,8 @@ class XLinearLayout @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : LinearLayout(context, attrs, defStyleAttr) {
 
+    private val backgroundDrawable: RoundRectDrawable
+
     init {
         val typedArray = context.obtainStyledAttributes(attrs, R.styleable.XLinearLayout)
         val backgroundColor = typedArray.getColorStateList(R.styleable.XLinearLayout_backgroundColor)
@@ -20,7 +23,11 @@ class XLinearLayout @JvmOverloads constructor(
         typedArray.recycle()
 
         clipToOutline = true
-        val roundedDrawable = RoundRectDrawable(backgroundColor, cornerSize)
-        ViewCompat.setBackground(this, roundedDrawable)
+        backgroundDrawable = RoundRectDrawable(backgroundColor, cornerSize)
+        ViewCompat.setBackground(this, backgroundDrawable)
+    }
+
+    override fun setBackgroundColor(color: Int) {
+        backgroundDrawable.color = ColorStateList.valueOf(color)
     }
 }

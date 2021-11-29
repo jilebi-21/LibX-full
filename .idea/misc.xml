@@ -15,9 +15,11 @@
         <entry key="..\:/Users/Pruthvi/AppData/Local/Android/Sdk/platforms/android-31/data/res/drawable/control_background_40dp_material.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout-watch/preference_material.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/drawable/ic_palette.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/drawable/ic_settings.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/activity_main.xml" value="0.17" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/activity_main2.xml" value="0.2263888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/fragment_palette.xml" value="0.2356164383561644" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/fragment_preferences.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/fragment_views.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_buttons.xml" value="0.2388888888888889" />
@@ -26,6 +28,7 @@
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_pref_sample.xml" value="0.2356164383561644" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_progress.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_switch.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/palette_tile.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/simple_spinner_dropdown_item.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2263888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/menu/main_bottom_nav.xml" value="0.2388888888888889" />
