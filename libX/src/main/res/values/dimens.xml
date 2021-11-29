@@ -21,11 +21,6 @@
     <dimen name="sesl_list_subheader_padding_bottom">5.0dip</dimen>
     <dimen name="sesl_list_subheader_text_size">14.0sp</dimen>
 
-    <!-- Button -->
-    <dimen name="btn_min_height">36dp</dimen>
-    <dimen name="btn_corner_radius">26dp</dimen>
-    <dimen name="btn_text_size">15sp</dimen>
-
     <!-- Seekbar -->
     <dimen name="sesl_seekbar_padding_horizontal">16.0dip</dimen>
     <dimen name="sesl_seekbar_ripple_radius">16.0dip</dimen>

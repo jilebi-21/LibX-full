@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Progress bar -->
-    <style name="ProgressBarXStyle" parent="@android:style/Widget.ProgressBar">
+    <style name="ProgressBarXStyle" parent="Widget.AppCompat.ProgressBar">
         <item name="android:indeterminateDrawable">@drawable/sesl_progress</item>
     </style>
 
@@ -50,55 +50,17 @@
     </style>
 
     <!--Switch-->
-    <style name="SwitchStyle" parent="@android:style/Widget.CompoundButton">
+    <style name="SwitchStyle" parent="Widget.Material3.CompoundButton.Switch">
         <item name="android:textOn">@string/switch_text_on</item>
         <item name="android:textOff">@string/switch_text_off</item>
         <item name="android:background">@drawable/switch_background</item>
         <item name="android:thumb">@drawable/switch_thumb_selector</item>
         <item name="android:track">@drawable/switch_track_selector</item>
         <item name="track">@drawable/switch_track_selector</item>
+        <item name="trackTint">@null</item>
+        <item name="thumbTint">@null</item>
         <item name="showText">false</item>
         <item name="switchTextAppearance">@style/TextAppearance.AppCompat.Widget.Switch</item>
-    </style>
-
-    <!--Button-->
-    <style name="ButtonTextStyle" parent="TextAppearance.AppCompat.Widget.Button">
-        <item name="android:textSize">@dimen/btn_text_size</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/btn_text_color</item>
-        <item name="textAllCaps">false</item>
-    </style>
-
-    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
-        <item name="android:minHeight">@dimen/btn_min_height</item>
-        <item name="android:paddingHorizontal">16dp</item>
-        <item name="android:paddingVertical">8dp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:textAppearance">@style/ButtonTextStyle</item>
-        <item name="android:textColor">@color/btn_text_color</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:maxLines">2</item>
-        <item name="android:stateListAnimator">@null</item>
-        <item name="rippleColor">?rippleColor</item>
-        <item name="backgroundTint">@color/btn_default_background</item>
-        <item name="cornerRadius">@dimen/btn_corner_radius</item>
-    </style>
-
-    <style name="ButtonStyle.Text">
-        <item name="android:textColor">@color/btn_transparent_text_color</item>
-        <item name="backgroundTint">@android:color/transparent</item>
-    </style>
-
-    <style name="ButtonStyle.Outlined">
-        <item name="android:textColor">@color/btn_transparent_text_color</item>
-        <item name="backgroundTint">@android:color/transparent</item>
-        <item name="strokeColor">@color/mtrl_btn_stroke_color_selector</item>
-        <item name="strokeWidth">1dp</item>
-    </style>
-
-    <style name="ButtonStyle.Colored">
-        <item name="backgroundTint">@color/btn_colored_background</item>
-        <item name="android:textColor">@color/btn_colored_text_color</item>
     </style>
 
     <!--Seekbar-->
@@ -125,25 +87,18 @@
     </style>
 
     <!-- CheckBox -->
-    <style name="CheckBoxStyle" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
-        <item name="android:minWidth">?minTouchTargetSize</item>
-        <item name="android:minHeight">?minTouchTargetSize</item>
-        <item name="android:button">@drawable/btn_check</item>
-        <item name="enforceMaterialTheme">true</item>
-        <item name="useMaterialThemeColors">true</item>
+    <style name="CheckBoxStyle" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/btn_xcheck</item>
+        <item name="buttonTint">@color/btn_xcheck_tint</item>
     </style>
 
     <!-- Radio Button -->
-    <style name="RadioButtonStyle" parent="@style/Widget.AppCompat.CompoundButton.RadioButton">
-        <item name="android:minWidth">?minTouchTargetSize</item>
-        <item name="android:minHeight">?minTouchTargetSize</item>
+    <style name="RadioButtonStyle" parent="Widget.Material3.CompoundButton.RadioButton">
         <item name="android:button">@drawable/btn_radio</item>
-        <item name="enforceMaterialTheme">true</item>
-        <item name="useMaterialThemeColors">true</item>
     </style>
 
     <!--Spinner-->
-    <style name="SpinnerStyle" parent="@style/Platform.Widget.AppCompat.Spinner">
+    <style name="SpinnerStyle" parent="Widget.AppCompat.Spinner">
         <item name="android:gravity">start|center</item>
         <item name="android:background">@drawable/spinner_background</item>
         <item name="paddingStart">10dp</item>
@@ -179,14 +134,14 @@
         <item name="android:textColor">@color/spinner_dropdown_text_color</item>
     </style>
 
-    <style name="BottomNavStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+    <style name="BottomNavStyle" parent="Widget.Material3.BottomNavigationView">
         <item name="backgroundTint">?colorSurface</item>
         <item name="elevation">0dp</item>
         <item name="itemBackground">@drawable/bg_bottom_nav</item>
     </style>
 
     <!-- AppBarLayout -->
-    <style name="AppBarLayoutStyle" parent="@android:style/Widget">
+    <style name="AppBarLayoutStyle" parent="Widget.Material3.AppBarLayout">
         <item name="android:stateListAnimator">@null</item>
         <item name="android:touchscreenBlocksFocus">false</item>
         <item name="android:keyboardNavigationCluster">true</item>
@@ -200,7 +155,7 @@
         <item name="statusBarScrim">?colorPrimaryDark</item>
     </style>
 
-    <style name="ToolbarStyle" parent="Widget.MaterialComponents.Toolbar">
+    <style name="ToolbarStyle" parent="Widget.Material3.Toolbar">
         <item name="android:minHeight">?actionBarSize</item>
         <item name="background">?colorSurface</item>
         <item name="contentInsetStart">0dp</item>
@@ -284,7 +239,7 @@
         <item name="android:textColor">@color/dialog_sub_text_color_material</item>
     </style>
 
-    <style name="DialogButtonStyle" parent="ButtonStyle.Text">
+    <style name="DialogButtonStyle" parent="Widget.Material3.Button.TextButton">
         <item name="android:textStyle">bold</item>
         <item name="android:minWidth">@dimen/dialog_button_min_width</item>
         <item name="android:minHeight">@dimen/dialog_button_min_height</item>
@@ -316,7 +271,7 @@
         <item name="android:windowActionBar">false</item>
         <item name="android:windowCloseOnTouchOutside">true</item>
         <item name="android:windowElevation">@dimen/dialog_window_elevation</item>
-        <item name="borderlessButtonStyle">@style/ButtonStyle</item>
+        <item name="borderlessButtonStyle">@style/Widget.Material3.Button</item>
         <item name="colorControlHighlight">@color/ripple_color</item>
         <item name="dialogPreferredPadding">@dimen/dialog_padding</item>
         <item name="listPreferredItemHeightSmall">@dimen/list_preferred_item_height_small</item>

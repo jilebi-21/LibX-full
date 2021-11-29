@@ -16,44 +16,39 @@
         android:padding="10dp"
         android:text="Enabled" />
 
-    <HorizontalScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <Button
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:layout_marginHorizontal="3.5dp"
+            android:text="Button" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="3.5dp"
-                android:text="Button" />
+        <Button
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="3.5dp"
+            android:text="Outlined" />
 
-            <Button
-                style="@style/ButtonStyle.Text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="3.5dp"
-                android:text="Text" />
+        <Button
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="3.5dp"
+            android:text="Outlined" />
 
-            <Button
-                style="@style/ButtonStyle.Outlined"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="3.5dp"
-                android:text="Outlined" />
-
-            <Button
-                style="@style/ButtonStyle.Colored"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="3.5dp"
-                android:text="Colored" />
-        </LinearLayout>
-    </HorizontalScrollView>
+        <Button
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="3.5dp"
+            android:text="Text" />
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
@@ -80,28 +75,28 @@
                 android:text="Button" />
 
             <Button
-                style="@style/ButtonStyle.Text"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:layout_marginHorizontal="3.5dp"
+                android:text="Outlined" />
+
+            <Button
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:enabled="false"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3.5dp"
+                android:text="Outlined" />
+
+            <Button
+                style="@style/Widget.Material3.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="3.5dp"
                 android:enabled="false"
                 android:text="Text" />
-
-            <Button
-                style="@style/ButtonStyle.Outlined"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="3.5dp"
-                android:enabled="false"
-                android:text="Outlined" />
-
-            <Button
-                style="@style/ButtonStyle.Colored"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="3.5dp"
-                android:enabled="false"
-                android:text="Colored" />
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </com.libx.ui.widget.XLinearLayout>

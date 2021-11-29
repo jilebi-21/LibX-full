@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="FreakyAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="FreakyAppTheme" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/primary_color</item>
         <item name="colorSecondary">@color/secondary_color</item>
         <item name="colorSurface">@color/surface_color</item>
@@ -37,9 +37,6 @@
         <item name="android:listDivider">@drawable/list_item_divider</item>
 
         <item name="materialCardViewStyle">@style/CardViewStyle</item>
-        <item name="android:buttonStyle">@style/ButtonStyle</item>
-        <item name="buttonStyle">@style/ButtonStyle</item>
-        <item name="materialButtonStyle">@style/ButtonStyle</item>
 
         <item name="android:switchStyle">@style/SwitchStyle</item>
         <item name="switchStyle">@style/SwitchStyle</item>
@@ -52,7 +49,7 @@
         <item name="android:radioButtonStyle">@style/RadioButtonStyle</item>
         <item name="radioButtonStyle">@style/RadioButtonStyle</item>
         <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio</item>
-        <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/btn_xcheck</item>
 
         <item name="spinnerStyle">@style/SpinnerStyle</item>
         <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemStyle</item>
