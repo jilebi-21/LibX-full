@@ -14,7 +14,11 @@
         <entry key="..\:/Users/Pruthvi/AppData/Local/Android/Sdk/platforms/android-31/data/res/drawable/control_background_40dp_material.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout-watch/preference_material.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.2388888888888889" />
-        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/drawable/ic_settings.xml" value="0.25324074074074077" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/activity_main.xml" value="0.17" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/activity_main2.xml" value="0.2263888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/fragment_preferences.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/fragment_views.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_buttons.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_buttonsa.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_check_radio.xml" value="0.2388888888888889" />
@@ -22,6 +26,8 @@
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_progress.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_switch.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/simple_spinner_dropdown_item.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2263888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/menu/main_bottom_nav.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/menu/main_menu.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/xml/prefs.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/xml/test_prefs.xml" value="0.2388888888888889" />
@@ -38,6 +44,7 @@
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable-xxhdpi/sesl_switch_thumb_on.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable-xxhdpi/sesl_switch_thumb_selector.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable-xxhdpi/sesl_switch_track_disabled_off.xml" value="0.25324074074074077" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/bg_bottom_nav.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/bg_rounded.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/bg_rounded_bottom.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/bg_rounded_middle.xml" value="0.2497716894977169" />

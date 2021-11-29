@@ -11,54 +11,19 @@
     app:title="Sample Title"
     tools:context=".MainActivity">
 
-    <androidx.core.widget.NestedScrollView
+    <fragment
+        android:id="@+id/frag_container_view"
+        android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fillViewport="true">
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/main_bottom_nav_graph" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <com.libx.ui.views.SpinnerX
-                android:id="@+id/spinner"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginHorizontal="16dp"
-                android:entries="@array/spinner_sample_entries"
-                app:layout_location="footer" />
-
-            <TextView
-                style="?android:listSeparatorTextViewStyle"
-                android:text="Buttons" />
-
-            <include layout="@layout/layout_buttons" />
-
-            <TextView
-                style="?android:listSeparatorTextViewStyle"
-                android:text="Switch" />
-
-            <include layout="@layout/layout_switch" />
-
-            <TextView
-                style="?android:listSeparatorTextViewStyle"
-                android:text="Progress bars" />
-
-            <include layout="@layout/layout_progress" />
-
-            <TextView
-                style="?android:listSeparatorTextViewStyle"
-                android:text="CheckBox and RadioButtons" />
-
-            <include layout="@layout/layout_check_radio" />
-
-            <FrameLayout
-                android:id="@+id/fragment_container"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:nestedScrollingEnabled="true" />
-        </LinearLayout>
-    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        app:layout_location="footer"
+        app:menu="@menu/main_bottom_nav" />
 </com.libx.ui.views.ToolbarLayout>

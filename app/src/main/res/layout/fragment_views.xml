@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.libx.ui.views.SpinnerX
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="16dp"
+            android:entries="@array/spinner_sample_entries"
+            app:layout_location="footer" />
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:text="Buttons" />
+
+        <include layout="@layout/layout_buttons" />
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:text="Switch" />
+
+        <include layout="@layout/layout_switch" />
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:text="Progress bars" />
+
+        <include layout="@layout/layout_progress" />
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:text="CheckBox and RadioButtons" />
+
+        <include layout="@layout/layout_check_radio" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -59,6 +59,8 @@
         <item name="spinnerDropDownItemStyle">@style/SpinnerDropDownItemStyle</item>
         <item name="dropdownListPreferredItemHeight">@dimen/popup_menu_item_min_height</item>
 
+        <item name="bottomNavigationStyle">@style/BottomNavStyle</item>
+
         <item name="appBarLayoutStyle">@style/AppBarLayoutStyle</item>
         <item name="collapsingToolbarLayoutStyle">@style/CollapsingToolbarLayoutStyle</item>
         <item name="android:toolbarStyle">@style/ToolbarStyle</item>

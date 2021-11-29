@@ -179,6 +179,12 @@
         <item name="android:textColor">@color/spinner_dropdown_text_color</item>
     </style>
 
+    <style name="BottomNavStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="backgroundTint">?colorSurface</item>
+        <item name="elevation">0dp</item>
+        <item name="itemBackground">@drawable/bg_bottom_nav</item>
+    </style>
+
     <!-- AppBarLayout -->
     <style name="AppBarLayoutStyle" parent="@android:style/Widget">
         <item name="android:stateListAnimator">@null</item>
