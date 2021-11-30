@@ -57,8 +57,8 @@
         <item name="android:thumb">@drawable/switch_thumb_selector</item>
         <item name="android:track">@drawable/switch_track_selector</item>
         <item name="track">@drawable/switch_track_selector</item>
-        <item name="trackTint">@null</item>
         <item name="thumbTint">@null</item>
+        <item name="trackTint">@null</item>
         <item name="showText">false</item>
         <item name="switchTextAppearance">@style/TextAppearance.AppCompat.Widget.Switch</item>
     </style>

@@ -15,4 +15,9 @@
         android:id="@+id/tab_preferences"
         android:name="org.freaky.lib.fragments.PreferenceFragment"
         android:label="Preferences" />
+
+    <fragment
+        android:id="@+id/tab_palette"
+        android:name="org.freaky.lib.fragments.palette.PaletteFragment"
+        android:label="Palette" />
 </navigation>

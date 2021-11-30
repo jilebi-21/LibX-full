@@ -28,6 +28,7 @@
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_pref_sample.xml" value="0.2356164383561644" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_progress.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/layout_switch.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/palette_item.xml" value="0.2356164383561644" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/palette_tile.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/layout/simple_spinner_dropdown_item.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2263888888888889" />
@@ -154,9 +155,11 @@
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/spinner_checkmark_item_selector.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/spinner_icon.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/spinner_item_checkmark.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_background.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_thumb_disabled_on.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_thumb_off.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_thumb_on.xml" value="0.25324074074074077" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_thumb_selector.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_track_disabled_off.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_track_disabled_on.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_track_off.xml" value="0.25324074074074077" />

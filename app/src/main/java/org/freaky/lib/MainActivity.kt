@@ -11,8 +11,8 @@ import com.libx.ui.views.ToolbarLayout
 
 class MainActivity : AppCompatActivity() {
 
-    private val tabTitles = arrayOf("Sample UI Elements", "Preferences")
-    private val tabSubTitles = arrayOf("All the modified UI elements", "All available Preferences")
+    private val tabTitles = arrayOf("Sample UI Elements", "Preferences", "Color Palette")
+    private val tabSubTitles = arrayOf("All the modified UI elements", "All available Preferences", "Material Design 3 Color palette")
     private var toolbarLayout: ToolbarLayout? = null
     private var bottomNav: BottomNavigationView? = null
 
@@ -41,6 +41,10 @@ class MainActivity : AppCompatActivity() {
                 R.id.tab_preferences -> {
                     toolbarLayout?.title = tabTitles[1]
                     toolbarLayout?.subtitle = tabSubTitles[1]
+                }
+                R.id.tab_palette -> {
+                    toolbarLayout?.title = tabTitles[2]
+                    toolbarLayout?.subtitle = tabSubTitles[2]
                 }
             }
         }

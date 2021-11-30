@@ -8,4 +8,9 @@
         android:id="@+id/tab_preferences"
         android:icon="@drawable/ic_settings"
         android:title="@string/tab_preferences_title" />
+
+    <item
+        android:id="@+id/tab_palette"
+        android:icon="@drawable/ic_palette"
+        android:title="@string/tab_palette_title" />
 </menu>

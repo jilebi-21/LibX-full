@@ -3,4 +3,5 @@
 
     <string name="tab_views_title">Views</string>
     <string name="tab_preferences_title">Preferences</string>
+    <string name="tab_palette_title">Palette</string>
 </resources>
