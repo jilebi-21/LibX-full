@@ -35,7 +35,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.PopupWindow;
-import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
 
 import androidx.annotation.DrawableRes;
@@ -53,10 +52,8 @@ import androidx.appcompat.widget.ViewUtils;
 import androidx.core.view.ViewCompat;
 
 import com.libx.ui.R;
-import com.libx.ui.dialog.AlertDialog;
+import com.libx.ui.dialog.XAlertDialog;
 import com.libx.ui.utils.ReflectUtils;
-
-import java.lang.reflect.Field;
 
 @SuppressLint("RestrictedApi")
 public class SpinnerX extends AppCompatSpinner {
@@ -602,7 +599,7 @@ public class SpinnerX extends AppCompatSpinner {
     }
 
     class DialogPopup implements SpinnerPopup, DialogInterface.OnClickListener {
-        AlertDialog mPopup;
+        XAlertDialog mPopup;
         private ListAdapter mListAdapter;
         private CharSequence mPrompt;
 
@@ -639,7 +636,7 @@ public class SpinnerX extends AppCompatSpinner {
             if (mListAdapter == null) {
                 return;
             }
-            AlertDialog.Builder builder = new AlertDialog.Builder(getPopupContext());
+            XAlertDialog.Builder builder = new XAlertDialog.Builder(getPopupContext());
             if (mPrompt != null) {
                 builder.setTitle(mPrompt);
             }

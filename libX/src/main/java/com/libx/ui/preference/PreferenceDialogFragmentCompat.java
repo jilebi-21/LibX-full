@@ -38,7 +38,7 @@ import androidx.annotation.RestrictTo;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 
-import com.libx.ui.dialog.AlertDialog;
+import com.libx.ui.dialog.XAlertDialog;
 
 public abstract class PreferenceDialogFragmentCompat extends DialogFragment
         implements DialogInterface.OnClickListener {
@@ -131,7 +131,7 @@ public abstract class PreferenceDialogFragmentCompat extends DialogFragment
         final Context context = getActivity();
         mWhichButtonClicked = DialogInterface.BUTTON_NEGATIVE;
 
-        final AlertDialog.Builder builder = new AlertDialog.Builder(context)
+        final XAlertDialog.Builder builder = new XAlertDialog.Builder(context)
                 .setTitle(mDialogTitle)
                 .setIcon(mDialogIcon)
                 .setPositiveButton(mPositiveButtonText, this)
@@ -148,7 +148,7 @@ public abstract class PreferenceDialogFragmentCompat extends DialogFragment
         onPrepareDialogBuilder(builder);
 
         // Create the dialog
-        final AlertDialog dialog = builder.create();
+        final XAlertDialog dialog = builder.create();
         if (needInputMethod()) {
             requestInputMethod(dialog);
         }
@@ -166,7 +166,7 @@ public abstract class PreferenceDialogFragmentCompat extends DialogFragment
         return mPreference;
     }
 
-    protected void onPrepareDialogBuilder(AlertDialog.Builder builder) {
+    protected void onPrepareDialogBuilder(XAlertDialog.Builder builder) {
     }
 
     @RestrictTo(LIBRARY)

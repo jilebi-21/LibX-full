@@ -2,7 +2,7 @@
 <inset xmlns:android="http://schemas.android.com/apk/res/android"
     android:insetBottom="@dimen/dialog_background_inset_bottom">
     <shape android:shape="rectangle">
-        <corners android:radius="26dp" />
-        <solid android:color="?colorSurfaceVariant2" />
+        <corners android:radius="@dimen/radius_card" />
+        <solid android:color="?colorSurfaceVariant" />
     </shape>
 </inset>

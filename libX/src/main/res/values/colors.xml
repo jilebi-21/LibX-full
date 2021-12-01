@@ -26,13 +26,14 @@
     <color name="text_color_secondary_inverse">#9c9c9c</color>
 
     <!--Switch-->
-    <color name="switch_thumb_on_color">#fafafa</color>
+    <color name="switch_thumb_on_color">?colorPrimaryContainer</color>
     <color name="switch_thumb_off_color">#fafafa</color>
     <color name="switch_thumb_off_stroke_color">#8c8c8c</color>
     <color name="switch_thumb_on_disabled_color">#fafafa</color>
     <color name="switch_thumb_on_disabled_stroke_color">#d0d0d0</color>
     <color name="switch_thumb_off_disabled_color">#fafafa</color>
     <color name="switch_thumb_off_disabled_stroke_color">#d0d0d0</color>
+    <color name="switch_track_on_color">?colorPrimary</color>
     <color name="switch_track_off_color">#999999</color>
     <color name="switch_track_off_stroke_color">#8c8c8c</color>
     <color name="switch_track_on_disabled_color">#668f8f8f</color>
@@ -45,10 +46,9 @@
     <!--Spinner-->
     <color name="popup_menu_background_color">?colorSurfaceVariant2</color>
     <color name="popup_menu_background_stroke_color">?colorSurfaceVariant2</color>
-    <color name="popup_menu_item_text_color_checked">?colorPrimary</color>
+    <color name="popup_menu_item_text_color_checked">?colorPrimaryContainer</color>
     <color name="spinner_icon_color_default">#3b3b3b</color>
     <color name="spinner_icon_color_disabled">#663b3b3b</color>
-    <color name="spinner_dropdown_item_text_color_normal">?textColorPrimary</color>
 
     <!-- Dialog -->
     <color name="dialog_body_text_color">#505050</color>

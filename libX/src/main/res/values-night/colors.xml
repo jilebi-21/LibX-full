@@ -29,6 +29,7 @@
     <color name="sesl_seekbar_disable_color_activated">#ff545454</color>
 
     <!--Spinner-->
+    <color name="popup_menu_item_text_color_checked">?colorPrimary</color>
     <color name="spinner_icon_color_default">#d9d9d9</color>
     <color name="spinner_icon_color_disabled">#66d9d9d9</color>
 

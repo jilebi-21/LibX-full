@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="FreakyAppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="FreakyAppTheme" parent="BaseTheme.V30" />
+
+    <style name="BaseTheme.V30" parent="BaseTheme">
         <item name="colorPrimary">@color/primary_color</item>
         <item name="colorPrimaryDark">?attr/colorPrimary</item>
         <item name="colorOnPrimary">@color/color_on_primary</item>
@@ -30,70 +32,5 @@
         <item name="colorOnError">@color/color_on_error</item>
         <item name="colorErrorContainer">@color/error_container_color</item>
         <item name="colorOnErrorContainer">@color/color_on_error_container</item>
-
-        <item name="colorSurfaceVariant2">@color/surface_color_variant2</item>
-        <item name="android:windowBackground">@color/surface_color</item>
-        <item name="android:statusBarColor">@color/surface_color</item>
-        <item name="android:navigationBarColor">@color/surface_color</item>
-        <item name="android:windowLightStatusBar">?isLightTheme</item>
-        <item name="android:windowLightNavigationBar">?isLightTheme</item>
-
-        <item name="rippleColor">@color/ripple_color</item>
-        <item name="itemRippleColor">@color/ripple_color</item>
-        <item name="textColorPrimary">@color/text_color</item>
-        <item name="textColorPrimaryInverse">@color/text_color_inverse</item>
-        <item name="textColorSecondary">@color/text_color_secondary</item>
-        <item name="textColorSecondaryInverse">@color/text_color_secondary_inverse</item>
-
-        <item name="android:progressBarStyle">@style/ProgressBarXStyle</item>
-        <item name="android:progressBarStyleHorizontal">@style/ProgressBarXStyle.Horizontal</item>
-        <item name="android:progressBarStyleSmall">@style/ProgressBarXStyle.Small</item>
-        <item name="android:progressBarStyleLarge">@style/ProgressBarXStyle.Large</item>
-        <item name="android:progressBarStyleSmallTitle">@style/ProgressBarXStyle.Title</item>
-        <item name="android:progressBarStyleInverse">@style/ProgressBarXStyle</item>
-        <item name="android:progressBarStyleSmallInverse">@style/ProgressBarXStyle.Small</item>
-        <item name="android:progressBarStyleLargeInverse">@style/ProgressBarXStyle.Large</item>
-
-        <item name="android:listSeparatorTextViewStyle">@style/ListSeparatorTextStyle</item>
-        <item name="listPreferredItemPaddingStart">@dimen/list_item_padding_start</item>
-        <item name="android:listPreferredItemPaddingStart">@dimen/list_item_padding_start</item>
-        <item name="listPreferredItemPaddingEnd">@dimen/list_item_padding_end</item>
-        <item name="android:listPreferredItemPaddingEnd">@dimen/list_item_padding_end</item>
-        <item name="android:listDivider">@drawable/list_item_divider</item>
-
-        <item name="materialCardViewStyle">@style/CardViewStyle</item>
-
-        <item name="android:switchStyle">@style/SwitchStyle</item>
-        <item name="switchStyle">@style/SwitchStyle</item>
-
-        <item name="android:seekBarStyle">@style/SeekBarStyle</item>
-        <item name="seekBarStyle">@style/SeekBarStyle</item>
-
-        <item name="android:checkboxStyle">@style/CheckBoxStyle</item>
-        <item name="checkboxStyle">@style/CheckBoxStyle</item>
-        <item name="android:radioButtonStyle">@style/RadioButtonStyle</item>
-        <item name="radioButtonStyle">@style/RadioButtonStyle</item>
-        <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio</item>
-        <item name="android:listChoiceIndicatorMultiple">@drawable/btn_xcheck</item>
-
-        <item name="spinnerStyle">@style/SpinnerStyle</item>
-        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemStyle</item>
-        <item name="spinnerDropDownItemStyle">@style/SpinnerDropDownItemStyle</item>
-        <item name="dropdownListPreferredItemHeight">@dimen/popup_menu_item_min_height</item>
-
-        <item name="bottomNavigationStyle">@style/BottomNavStyle</item>
-
-        <item name="appBarLayoutStyle">@style/AppBarLayoutStyle</item>
-        <item name="collapsingToolbarLayoutStyle">@style/CollapsingToolbarLayoutStyle</item>
-        <item name="android:toolbarStyle">@style/ToolbarStyle</item>
-        <item name="toolbarStyle">@style/ToolbarStyle</item>
-
-        <item name="dialogTheme">@style/DialogTheme</item>
-        <item name="dialogPreferredPadding">@dimen/dialog_padding</item>
-        <item name="buttonBarButtonStyle">@style/DialogButtonStyle</item>
-        <item name="alertDialogTheme">@style/DialogTheme</item>
-        <item name="alertDialogStyle">@style/AlertDialogStyle</item>
-
-        <item name="preferenceTheme">@style/PreferenceThemeStyle</item>
     </style>
 </resources>

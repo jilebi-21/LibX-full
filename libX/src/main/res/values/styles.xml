@@ -118,26 +118,21 @@
         <item name="android:windowExitAnimation">@anim/sesl_list_popup_exit</item>
     </style>
 
-    <style name="SpinnerDropDownItemStyle" parent="@android:style/Widget.Material.DropDownItem.Spinner">
-        <item name="android:textAppearance">@style/DropDownItemTextStyle</item>
+    <style name="SpinnerDropDownItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textSize">@dimen/popup_menu_item_text_size</item>
+        <item name="android:textColor">@color/spinner_dropdown_text_color</item>
         <item name="android:checkMark">@drawable/spinner_item_checkmark</item>
         <item name="android:minWidth">@dimen/popup_menu_item_min_width</item>
         <item name="android:minHeight">@dimen/popup_menu_item_min_height</item>
-        <item name="android:paddingStart">@dimen/popup_menu_item_padding_start</item>
-        <item name="android:paddingTop">@dimen/popup_menu_item_padding_top</item>
-        <item name="android:paddingEnd">@dimen/popup_menu_item_padding_end</item>
-        <item name="android:paddingBottom">@dimen/popup_menu_item_padding_bottom</item>
-    </style>
-
-    <style name="DropDownItemTextStyle">
-        <item name="android:textSize">@dimen/popup_menu_item_text_size</item>
-        <item name="android:textColor">@color/spinner_dropdown_text_color</item>
+        <item name="android:paddingStart">@dimen/popup_menu_item_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/popup_menu_item_padding_vertical</item>
+        <item name="android:paddingEnd">@dimen/popup_menu_item_padding_horizontal</item>
+        <item name="android:paddingBottom">@dimen/popup_menu_item_padding_vertical</item>
     </style>
 
     <style name="BottomNavStyle" parent="Widget.Material3.BottomNavigationView">
         <item name="backgroundTint">?colorSurface</item>
         <item name="elevation">0dp</item>
-        <item name="itemBackground">@drawable/bg_bottom_nav</item>
     </style>
 
     <!-- AppBarLayout -->
@@ -147,12 +142,12 @@
         <item name="android:keyboardNavigationCluster">true</item>
     </style>
 
-    <style name="CollapsingToolbarLayoutStyle" parent="@android:style/Widget">
+    <style name="CollapsingToolbarLayoutStyle" parent="Widget.Design.CollapsingToolbar">
         <item name="android:background">?colorSurface</item>
         <item name="android:minHeight">?actionBarSize</item>
-        <item name="expandedTitleTextAppearance">@style/ToolbarExpandedTitleTextStyle</item>
-        <item name="collapsedTitleTextAppearance">@style/ToolbarCollapsedTitleTextStyle</item>
-        <item name="statusBarScrim">?colorPrimaryDark</item>
+        <item name="expandedTitleTextAppearance">@style/Toolbar.Expanded.Title.Text</item>
+        <item name="expandedSubtitleTextAppearance">@style/Toolbar.Expanded.Subtitle.Text</item>
+        <item name="collapsedTitleTextAppearance">@style/Toolbar.Collapsed.Title.Text</item>
     </style>
 
     <style name="ToolbarStyle" parent="Widget.Material3.Toolbar">
@@ -164,8 +159,8 @@
         <item name="android:contentInsetEnd">0dip</item>
         <item name="contentInsetStartWithNavigation">0dp</item>
         <item name="android:contentInsetStartWithNavigation">0dp</item>
-        <item name="titleTextAppearance">@style/ToolbarCollapsedTitleTextStyle</item>
-        <item name="subtitleTextAppearance">@style/ToolbarCollapsedSubtitleTextStyle</item>
+        <item name="titleTextAppearance">@style/Toolbar.Collapsed.Title.Text</item>
+        <item name="subtitleTextAppearance">@style/Toolbar.Collapsed.Subtitle.Text</item>
         <item name="titleMargin">0.0dip</item>
         <item name="maxButtonHeight">?actionBarSize</item>
         <item name="buttonGravity">top</item>
@@ -178,27 +173,25 @@
         <item name="android:paddingStart">8.0dip</item>
     </style>
 
-    <style name="ToolbarCollapsedTitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+    <style name="Toolbar.Collapsed.Title.Text" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textSize">@dimen/toolbar_title_text_size</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">?textColorPrimary</item>
         <item name="textAllCaps">false</item>
     </style>
 
-    <style name="ToolbarCollapsedSubtitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+    <style name="Toolbar.Collapsed.Subtitle.Text" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
         <item name="android:textSize">@dimen/toolbar_subtitle_text_size</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">?textColorSecondary</item>
         <item name="textAllCaps">false</item>
     </style>
 
-    <style name="ToolbarExpandedTitleTextStyle" parent="@style/ToolbarCollapsedTitleTextStyle">
+    <style name="Toolbar.Expanded.Title.Text" parent="Toolbar.Collapsed.Title.Text">
         <item name="android:textSize">@dimen/appbar_expanded_title_text_size</item>
-        <item name="android:fontFamily">sans-serif-light</item>
-        <item name="fontFamily">sans-serif-light</item>
     </style>
 
-    <style name="ToolbarExpandedSubtitleTextStyle" parent="ToolbarCollapsedSubtitleTextStyle">
+    <style name="Toolbar.Expanded.Subtitle.Text" parent="Toolbar.Collapsed.Subtitle.Text">
         <item name="android:textSize">@dimen/appbar_expanded_subtitle_text_size</item>
     </style>
 
@@ -208,18 +201,17 @@
         <item name="android:windowExitAnimation">@anim/dialog_exit_anim</item>
     </style>
 
-    <style name="DialogTitleStyle" parent="@android:style/Widget">
+    <style name="AlertDialog.Title.Text" parent="MaterialAlertDialog.Material3.Title.Text">
         <item name="android:textSize">@dimen/dialog_title_text_size</item>
+        <item name="android:textColor">?colorOnSurface</item>
         <item name="android:maxLines">1</item>
         <item name="android:scrollHorizontally">true</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">?textColorPrimary</item>
-        <item name="android:textAlignment">viewStart</item>
     </style>
 
-    <style name="DialogTextStyle" parent="TextAppearance.AppCompat">
-        <item name="android:textSize">@dimen/dialog_body_text_size</item>
-        <item name="android:textColor">@color/dialog_body_text_color</item>
+    <style name="AlertDialog.Body.Text" parent="">
+        <item name="android:textAppearance">?attr/textAppearanceBodyMedium</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
     </style>
 
     <style name="DialogTextInverseStyle" parent="TextAppearance.AppCompat">
@@ -229,24 +221,23 @@
         <item name="android:textColorLink">?android:textColorLinkInverse</item>
     </style>
 
-    <style name="DialogTextListItemStyle" parent="@style/DialogTextStyle">
+    <style name="AlertDialog.Body.Text.ListItem">
         <item name="android:textSize">@dimen/select_dialog_list_item_text_size</item>
-        <item name="android:textColor">@color/select_dialog_list_item_text</item>
     </style>
 
-    <style name="DialogTextListItemSecondaryStyle" parent="@style/DialogTextListItemStyle">
+    <style name="AlertDialog.Body.Text.ListItem.Secondary">
         <item name="android:textSize">@dimen/select_dialog_list_item_text_size_secondary</item>
         <item name="android:textColor">@color/dialog_sub_text_color_material</item>
     </style>
 
-    <style name="DialogButtonStyle" parent="Widget.Material3.Button.TextButton">
+    <style name="AlertDialog.Button" parent="Widget.Material3.Button.TextButton">
         <item name="android:textStyle">bold</item>
         <item name="android:minWidth">@dimen/dialog_button_min_width</item>
         <item name="android:minHeight">@dimen/dialog_button_min_height</item>
         <item name="android:singleLine">true</item>
     </style>
 
-    <style name="AlertDialogStyle" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+    <style name="AlertDialogStyle" parent="ThemeOverlay.Material3.Dialog.Alert">
         <item name="android:layout">@layout/alert_dialog</item>
         <item name="listItemLayout">@layout/select_dialog_item</item>
         <item name="listLayout">@layout/select_dialog</item>
@@ -254,15 +245,15 @@
         <item name="singleChoiceItemLayout">@layout/select_dialog_singlechoice</item>
     </style>
 
-    <style name="DialogTheme" parent="Base.ThemeOverlay.AppCompat">
+    <style name="DialogTheme" parent="ThemeOverlay.Material3">
         <item name="android:backgroundDimAmount">@dimen/dialog_background_dim_amount</item>
         <item name="android:textAppearanceInverse">@style/DialogTextInverseStyle</item>
         <item name="android:windowBackground">@drawable/dialog_background</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowTitleStyle">@style/DialogTitleStyle</item>
-        <item name="android:textAppearance">@style/DialogTextStyle</item>
+        <item name="android:windowTitleStyle">@style/AlertDialog.Title.Text</item>
+        <item name="android:textAppearance">@style/AlertDialog.Body.Text</item>
         <item name="android:scrollbarThumbHorizontal">@drawable/dialog_scrollbar_handle</item>
         <item name="android:scrollbarThumbVertical">@drawable/dialog_scrollbar_handle</item>
         <item name="android:windowAnimationStyle">@style/DialogAnimStyle</item>
@@ -281,9 +272,9 @@
         <item name="listPreferredItemPaddingStart">@dimen/select_dialog_padding_start</item>
         <item name="listPreferredItemPaddingRight">@dimen/select_dialog_padding_end</item>
         <item name="listPreferredItemPaddingEnd">@dimen/select_dialog_padding_end</item>
-        <item name="textAppearanceListItem">@style/DialogTextListItemStyle</item>
-        <item name="textAppearanceListItemSecondary">@style/DialogTextListItemSecondaryStyle</item>
-        <item name="textAppearanceListItemSmall">@style/DialogTextListItemStyle</item>
+        <item name="textAppearanceListItem">@style/AlertDialog.Body.Text.ListItem</item>
+        <item name="textAppearanceListItemSecondary">@style/AlertDialog.Body.Text.ListItem.Secondary</item>
+        <item name="textAppearanceListItemSmall">@style/AlertDialog.Body.Text.ListItem</item>
         <item name="textColorAlertDialogListItem">@color/select_dialog_list_item_text</item>
         <item name="windowActionBar">false</item>
         <item name="windowActionModeOverlay">true</item>

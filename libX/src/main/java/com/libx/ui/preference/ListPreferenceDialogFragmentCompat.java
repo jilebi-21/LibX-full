@@ -21,7 +21,7 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 
-import com.libx.ui.dialog.AlertDialog;
+import com.libx.ui.dialog.XAlertDialog;
 
 public class ListPreferenceDialogFragmentCompat extends PreferenceDialogFragmentCompat {
 
@@ -78,7 +78,7 @@ public class ListPreferenceDialogFragmentCompat extends PreferenceDialogFragment
     }
 
     @Override
-    protected void onPrepareDialogBuilder(AlertDialog.Builder builder) {
+    protected void onPrepareDialogBuilder(XAlertDialog.Builder builder) {
         super.onPrepareDialogBuilder(builder);
 
         builder.setSingleChoiceItems(mEntries, mClickedDialogEntryIndex,

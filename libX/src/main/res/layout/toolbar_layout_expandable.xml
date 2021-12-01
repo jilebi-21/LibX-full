@@ -40,7 +40,7 @@
                         android:ellipsize="end"
                         android:gravity="center"
                         android:hyphenationFrequency="normal"
-                        android:textAppearance="@style/ToolbarExpandedTitleTextStyle" />
+                        android:textAppearance="@style/Toolbar.Expanded.Title.Text" />
 
                     <TextView
                         android:id="@+id/tl_expanded_subtitle"
@@ -49,7 +49,7 @@
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:hyphenationFrequency="normal"
-                        android:textAppearance="@style/ToolbarExpandedSubtitleTextStyle" />
+                        android:textAppearance="@style/Toolbar.Expanded.Subtitle.Text" />
                 </LinearLayout>
 
                 <include layout="@layout/toolbar_layout_toolbar" />

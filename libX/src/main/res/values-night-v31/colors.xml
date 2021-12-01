@@ -1,38 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="surface_color_variant2">@android:color/system_neutral2_800</color>
-    <color name="divider_color">#42fafafa</color>
-    <color name="ripple_color">#515151</color>
-
-    <color name="sesl_list_subheader_text_color">#ff999999</color>
-
-    <color name="text_color">@color/light_color</color>
-    <color name="text_color_inverse">@color/dark_color</color>
-    <color name="text_color_secondary">#9c9c9c</color>
-    <color name="text_color_secondary_inverse">#636363</color>
-
-    <!--Switch-->
-    <color name="switch_thumb_off_stroke_color">#8f8f8f</color>
-    <color name="switch_thumb_off_disabled_color">#858585</color>
-    <color name="switch_thumb_off_disabled_stroke_color">#668f8f8f</color>
-    <color name="switch_thumb_on_disabled_color">#858585</color>
-    <color name="switch_thumb_on_disabled_stroke_color">#3d3d3d</color>
-    <color name="switch_track_off_color">#333333</color>
-    <color name="switch_track_off_stroke_color">#8f8f8f</color>
-    <color name="switch_track_off_disabled_stroke_color">#668f8f8f</color>
-
-    <!-- Seekbar -->
-    <color name="sesl_seekbar_disable_color_activated">#ff545454</color>
-
-    <!--Spinner-->
-    <color name="spinner_icon_color_default">#d9d9d9</color>
-    <color name="spinner_icon_color_disabled">#66d9d9d9</color>
-
-    <!-- Dialog -->
-    <color name="dialog_body_text_color">#e5e5e5</color>
-    <color name="dialog_scrollbar_handle_tint_color_mtrl">#595959</color>
-    <color name="dialog_sub_text_color_material">#666666</color>
-
     <!-- Accents -->
     <color name="primary_color">@android:color/system_accent1_200</color>
     <color name="color_on_primary">@android:color/system_accent1_800</color>

@@ -61,7 +61,7 @@ import com.libx.ui.R;
 
 import java.lang.ref.WeakReference;
 
-class AlertController {
+class XAlertController {
     private final Context mContext;
     final AppCompatDialog mDialog;
     private final Window mWindow;
@@ -118,7 +118,7 @@ class AlertController {
 
     private boolean mShowTitle;
 
-    private int mButtonPanelLayoutHint = AlertDialog.LAYOUT_HINT_NONE;
+    private int mButtonPanelLayoutHint = XAlertDialog.LAYOUT_HINT_NONE;
 
     Handler mHandler;
 
@@ -178,7 +178,7 @@ class AlertController {
         return outValue.data != 0;
     }
 
-    public AlertController(Context context, AppCompatDialog di, Window window) {
+    public XAlertController(Context context, AppCompatDialog di, Window window) {
         mContext = context;
         mDialog = di;
         mWindow = window;
@@ -237,7 +237,7 @@ class AlertController {
         if (mButtonPanelSideLayout == 0) {
             return mAlertDialogLayout;
         }
-        if (mButtonPanelLayoutHint == AlertDialog.LAYOUT_HINT_SIDE) {
+        if (mButtonPanelLayoutHint == XAlertDialog.LAYOUT_HINT_SIDE) {
             return mButtonPanelSideLayout;
         }
         return mAlertDialogLayout;
@@ -562,7 +562,7 @@ class AlertController {
             View titleTemplate = mWindow.findViewById(R.id.title_template);
             titleTemplate.setVisibility(View.GONE);
         } else {
-            mIconView = (ImageView) mWindow.findViewById(R.id.icon);
+            mIconView = (ImageView) mWindow.findViewById(android.R.id.icon);
 
             final boolean hasTextTitle = !TextUtils.isEmpty(mTitle);
             if (hasTextTitle && mShowTitle) {
@@ -602,7 +602,7 @@ class AlertController {
         mScrollView.setNestedScrollingEnabled(false);
 
         // Special case for users that only want to display a String
-        mMessageView = (TextView) contentPanel.findViewById(R.id.message);
+        mMessageView = (TextView) contentPanel.findViewById(android.R.id.message);
         if (mMessageView == null) {
             return;
         }
@@ -641,7 +641,7 @@ class AlertController {
         int BIT_BUTTON_NEGATIVE = 2;
         int BIT_BUTTON_NEUTRAL = 4;
         int whichButtons = 0;
-        mButtonPositive = (Button) buttonPanel.findViewById(R.id.button1);
+        mButtonPositive = (Button) buttonPanel.findViewById(android.R.id.button1);
         mButtonPositive.setOnClickListener(mButtonHandler);
 
         if (TextUtils.isEmpty(mButtonPositiveText) && mButtonPositiveIcon == null) {
@@ -656,7 +656,7 @@ class AlertController {
             whichButtons = whichButtons | BIT_BUTTON_POSITIVE;
         }
 
-        mButtonNegative = buttonPanel.findViewById(R.id.button2);
+        mButtonNegative = buttonPanel.findViewById(android.R.id.button2);
         mButtonNegative.setOnClickListener(mButtonHandler);
 
         if (TextUtils.isEmpty(mButtonNegativeText) && mButtonNegativeIcon == null) {
@@ -671,7 +671,7 @@ class AlertController {
             whichButtons = whichButtons | BIT_BUTTON_NEGATIVE;
         }
 
-        mButtonNeutral = (Button) buttonPanel.findViewById(R.id.button3);
+        mButtonNeutral = (Button) buttonPanel.findViewById(android.R.id.button3);
         mButtonNeutral.setOnClickListener(mButtonHandler);
 
         if (TextUtils.isEmpty(mButtonNeutralText) && mButtonNeutralIcon == null) {
@@ -814,7 +814,7 @@ class AlertController {
             mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         }
 
-        public void apply(AlertController dialog) {
+        public void apply(XAlertController dialog) {
             if (mCustomTitleView != null) {
                 dialog.setCustomTitle(mCustomTitleView);
             } else {
@@ -863,7 +863,7 @@ class AlertController {
             }
         }
 
-        private void createListView(final AlertController dialog) {
+        private void createListView(final XAlertController dialog) {
             final RecycleListView listView = (RecycleListView) mInflater.inflate(dialog.mListLayout, null);
             final ListAdapter adapter;
 

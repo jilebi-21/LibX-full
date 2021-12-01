@@ -20,7 +20,7 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 
-import com.libx.ui.dialog.AlertDialog;
+import com.libx.ui.dialog.XAlertDialog;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -96,7 +96,7 @@ public class MultiSelectListPreferenceDialogFragmentCompat extends PreferenceDia
     }
 
     @Override
-    protected void onPrepareDialogBuilder(AlertDialog.Builder builder) {
+    protected void onPrepareDialogBuilder(XAlertDialog.Builder builder) {
         super.onPrepareDialogBuilder(builder);
 
         final int entryCount = mEntryValues.length;

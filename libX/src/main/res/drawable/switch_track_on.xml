@@ -8,7 +8,7 @@
                 android:width="30dp"
                 android:height="18.5dp" />
             <solid
-                android:color="?colorPrimary"
+                android:color="@color/switch_track_on_color"
                 tools:color="#690" />
         </shape>
     </item>

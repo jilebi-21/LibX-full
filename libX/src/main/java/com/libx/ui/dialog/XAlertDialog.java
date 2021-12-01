@@ -44,24 +44,24 @@ import androidx.annotation.StyleRes;
 import androidx.appcompat.R;
 import androidx.appcompat.app.AppCompatDialog;
 
-public class AlertDialog extends AppCompatDialog implements DialogInterface {
+public class XAlertDialog extends AppCompatDialog implements DialogInterface {
 
-    final AlertController mAlert;
+    final XAlertController mAlert;
 
     static final int LAYOUT_HINT_NONE = 0;
     static final int LAYOUT_HINT_SIDE = 1;
 
-    protected AlertDialog(@NonNull Context context) {
+    protected XAlertDialog(@NonNull Context context) {
         this(context, 0);
     }
 
-    protected AlertDialog(@NonNull Context context, @StyleRes int themeResId) {
+    protected XAlertDialog(@NonNull Context context, @StyleRes int themeResId) {
         super(context, resolveDialogTheme(context, themeResId));
-        mAlert = new AlertController(getContext(), this, getWindow());
+        mAlert = new XAlertController(getContext(), this, getWindow());
     }
 
-    protected AlertDialog(@NonNull Context context, boolean cancelable,
-                          @Nullable OnCancelListener cancelListener) {
+    protected XAlertDialog(@NonNull Context context, boolean cancelable,
+                           @Nullable OnCancelListener cancelListener) {
         this(context, 0);
         setCancelable(cancelable);
         setOnCancelListener(cancelListener);
@@ -164,7 +164,7 @@ public class AlertDialog extends AppCompatDialog implements DialogInterface {
     }
 
     public static class Builder {
-        private final AlertController.AlertParams P;
+        private final XAlertController.AlertParams P;
         private final int mTheme;
 
         public Builder(@NonNull Context context) {
@@ -172,7 +172,7 @@ public class AlertDialog extends AppCompatDialog implements DialogInterface {
         }
 
         public Builder(@NonNull Context context, @StyleRes int themeResId) {
-            P = new AlertController.AlertParams(new ContextThemeWrapper(
+            P = new XAlertController.AlertParams(new ContextThemeWrapper(
                     context, resolveDialogTheme(context, themeResId)));
             mTheme = themeResId;
         }
@@ -433,10 +433,10 @@ public class AlertDialog extends AppCompatDialog implements DialogInterface {
         }
 
         @NonNull
-        public AlertDialog create() {
+        public XAlertDialog create() {
             // We can't use Dialog's 3-arg constructor with the createThemeContextWrapper param,
             // so we always have to re-set the theme
-            final AlertDialog dialog = new AlertDialog(P.mContext, mTheme);
+            final XAlertDialog dialog = new XAlertDialog(P.mContext, mTheme);
             P.apply(dialog.mAlert);
             dialog.setCancelable(P.mCancelable);
             if (P.mCancelable) {
@@ -450,8 +450,8 @@ public class AlertDialog extends AppCompatDialog implements DialogInterface {
             return dialog;
         }
 
-        public AlertDialog show() {
-            final AlertDialog dialog = create();
+        public XAlertDialog show() {
+            final XAlertDialog dialog = create();
             dialog.show();
             return dialog;
         }

@@ -4,6 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Pruthvi/.gradle/caches/transforms-3/3d1192542e63b45a423c960d7291c47c/transformed/material-1.5.0-beta01/res/drawable-v23/m3_selection_control_ripple.xml" value="0.25324074074074077" />
+        <entry key="..\:/Users/Pruthvi/.gradle/caches/transforms-3/3d1192542e63b45a423c960d7291c47c/transformed/material-1.5.0-beta01/res/layout/m3_alert_dialog.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/.gradle/caches/transforms-3/3d1192542e63b45a423c960d7291c47c/transformed/material-1.5.0-beta01/res/layout/m3_alert_dialog_actions.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/.gradle/caches/transforms-3/3d1192542e63b45a423c960d7291c47c/transformed/material-1.5.0-beta01/res/layout/m3_alert_dialog_title.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/.gradle/caches/transforms-3/3d1192542e63b45a423c960d7291c47c/transformed/material-1.5.0-beta01/res/layout/mtrl_alert_select_dialog_item.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/Pruthvi/.gradle/caches/transforms-3/560b36433fb74374d3c5598d4e3c687c/transformed/preference-1.1.1/res/layout/preference.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/.gradle/caches/transforms-3/a41f65a1b182ec9e11a9bbe3d48996cb/transformed/appcompat-1.3.1/res/drawable/abc_btn_check_material_anim.xml" value="0.1" />
         <entry key="..\:/Users/Pruthvi/.gradle/caches/transforms-3/a41f65a1b182ec9e11a9bbe3d48996cb/transformed/appcompat-1.3.1/res/layout/support_simple_spinner_dropdown_item.xml" value="0.2388888888888889" />
         <entry key="..\:/Users/Pruthvi/.gradle/caches/transforms-3/aa89ac495664da2633ad3b1b3ebb4378/transformed/preference-1.1.1/res/layout/preference.xml" value="0.2388888888888889" />
@@ -54,6 +59,7 @@
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/bg_rounded_bottom.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/bg_rounded_middle.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/bg_rounded_top.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/bottom_nav_background.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_check.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_check_material_anim.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_checkbox.xml" value="0.2497716894977169" />
@@ -71,6 +77,7 @@
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_default_background.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_default_mask.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_radio.xml" value="0.2497716894977169" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_radio_off.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_radio_off_disabled.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_radio_off_to_on_anim.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/btn_radio_on.xml" value="0.25324074074074077" />
@@ -156,6 +163,7 @@
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/spinner_icon.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/spinner_item_checkmark.xml" value="0.2497716894977169" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_background.xml" value="0.25324074074074077" />
+        <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_thumb_disabled_off.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_thumb_disabled_on.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_thumb_off.xml" value="0.25324074074074077" />
         <entry key="..\:/Users/Pruthvi/FreakyOs/Freaky-Design-Library/libX/src/main/res/drawable/switch_thumb_on.xml" value="0.25324074074074077" />

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="FreakyAppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="FreakyAppTheme" parent="BaseTheme" />
+
+    <style name="BaseTheme" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/primary_color</item>
         <item name="colorSecondary">@color/secondary_color</item>
         <item name="colorSurface">@color/surface_color</item>
@@ -13,8 +15,8 @@
         <item name="android:windowLightStatusBar">?isLightTheme</item>
         <item name="android:windowLightNavigationBar">?isLightTheme</item>
 
-        <item name="rippleColor">@color/ripple_color</item>
-        <item name="itemRippleColor">@color/ripple_color</item>
+        <item name="rippleColor">@color/item_ripple_color</item>
+        <item name="itemRippleColor">@color/item_ripple_color</item>
         <item name="textColorPrimary">@color/text_color</item>
         <item name="textColorPrimaryInverse">@color/text_color_inverse</item>
         <item name="textColorSecondary">@color/text_color_secondary</item>
@@ -65,7 +67,7 @@
 
         <item name="dialogTheme">@style/DialogTheme</item>
         <item name="dialogPreferredPadding">@dimen/dialog_padding</item>
-        <item name="buttonBarButtonStyle">@style/DialogButtonStyle</item>
+        <item name="buttonBarButtonStyle">@style/AlertDialog.Button</item>
         <item name="alertDialogTheme">@style/DialogTheme</item>
         <item name="alertDialogStyle">@style/AlertDialogStyle</item>
 

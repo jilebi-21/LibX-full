@@ -7,6 +7,8 @@
     <attr name="textColorSecondary" format="color" />
     <attr name="textColorSecondaryInverse" format="color" />
 
+    <attr name="expandedSubtitleTextAppearance" format="reference" />
+
     <declare-styleable name="XLinearLayout">
         <attr name="cornerRadius" format="dimension" />
         <attr name="backgroundColor" format="color" />
