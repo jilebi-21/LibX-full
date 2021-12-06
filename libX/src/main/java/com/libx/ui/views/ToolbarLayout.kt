@@ -35,6 +35,7 @@ class ToolbarLayout(
     private val collapsedTitleContainer: LinearLayout
     private val collapsedTitleView: MaterialTextView
     private val collapsedSubTitleView: MaterialTextView
+    val switchBar: SwitchBar
     private val mainContainer: LinearLayout?
 
     private val footerContainer: FrameLayout?
@@ -77,6 +78,7 @@ class ToolbarLayout(
         collapsedTitleView = findViewById(R.id.tl_collapsed_title)
         collapsedTitleContainer = findViewById(R.id.tl_collapsed_title_container)
         collapsedSubTitleView = findViewById(R.id.tl_collapsed_subtitle)
+        switchBar = findViewById(R.id.tl_switchbar)
         mainContainer = findViewById(R.id.tl_main_container)
         footerContainer = findViewById(R.id.tl_footer)
 

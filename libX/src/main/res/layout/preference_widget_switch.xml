@@ -11,10 +11,11 @@
         android:background="@color/divider_color"
         android:visibility="gone" />
 
-    <androidx.appcompat.widget.SwitchCompat
+    <com.libx.ui.views.ToggleSwitch
         android:id="@android:id/switch_widget"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:focusable="false"
+        android:clickable="false"
         android:paddingStart="9dp" />
 </LinearLayout>

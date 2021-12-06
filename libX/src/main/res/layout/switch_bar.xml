@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/switchbar_container"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@drawable/switchbar_background"
+    android:orientation="horizontal"
+    android:paddingHorizontal="24dp">
+
+    <TextView
+        android:id="@+id/switchbar_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:importantForAccessibility="no"
+        android:maxLines="1"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/SwitchBarTextStyle"
+        tools:ignore="RtlCompat" />
+
+    <ProgressBar
+        android:id="@+id/switchbar_progress"
+        style="@style/ProgressBarXStyle.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="12dp"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchbar_widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>

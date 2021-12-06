@@ -26,12 +26,12 @@ import android.view.View;
 import android.view.accessibility.AccessibilityManager;
 import android.widget.Checkable;
 import android.widget.CompoundButton;
-import android.widget.Switch;
 
 import androidx.annotation.RestrictTo;
 import androidx.core.content.res.TypedArrayUtils;
 
 import com.libx.ui.R;
+import com.libx.ui.views.ToggleSwitch;
 
 @SuppressLint("RestrictedApi")
 public class SwitchPreference extends TwoStatePreference {
@@ -40,8 +40,7 @@ public class SwitchPreference extends TwoStatePreference {
     private CharSequence mSwitchOn;
     private CharSequence mSwitchOff;
 
-    public SwitchPreference(Context context, AttributeSet attrs, int defStyleAttr,
-                            int defStyleRes) {
+    public SwitchPreference(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
 
         TypedArray a = context.obtainStyledAttributes(attrs,
@@ -85,9 +84,22 @@ public class SwitchPreference extends TwoStatePreference {
     @Override
     public void onBindViewHolder(PreferenceViewHolder holder) {
         super.onBindViewHolder(holder);
-        View switchView = holder.findViewById(android.R.id.switch_widget);
+        ToggleSwitch switchView = (ToggleSwitch) holder.findViewById(android.R.id.switch_widget);
+        View switchDivider = holder.findViewById(R.id.switch_divider);
         syncSwitchView(switchView);
         syncSummaryView(holder);
+
+        boolean hasDest = hasDestination();
+        switchView.setClickable(hasDest);
+        if (hasDest) {
+            switchDivider.setVisibility(View.VISIBLE);
+            switchView.addOnCheckedChangeListener((buttonView, isChecked) -> {
+            });
+        } else switchDivider.setVisibility(View.GONE);
+    }
+
+    boolean hasDestination() {
+        return (getIntent() != null) || (getFragment() != null);
     }
 
     public CharSequence getSwitchTextOn() {
@@ -116,11 +128,27 @@ public class SwitchPreference extends TwoStatePreference {
         setSwitchTextOff(getContext().getString(resId));
     }
 
+    @Override
+    protected void onClick() {
+        if (!hasDestination()) {
+            super.onClick();
+        }
+    }
+
     @RestrictTo(LIBRARY)
     @Override
     protected void performClick(View view) {
         super.performClick(view);
         syncViewIfAccessibilityEnabled(view);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        if (hasDestination()) {
+            setChecked(getPersistedBoolean(false));
+        }
     }
 
     private void syncViewIfAccessibilityEnabled(View view) {
@@ -138,18 +166,17 @@ public class SwitchPreference extends TwoStatePreference {
     }
 
     private void syncSwitchView(View view) {
-        if (view instanceof Switch) {
-            final Switch switchView = (Switch) view;
-            switchView.setOnCheckedChangeListener(null);
+        if (view instanceof ToggleSwitch) {
+            ((ToggleSwitch) view).removeAllListeners();
         }
         if (view instanceof Checkable) {
             ((Checkable) view).setChecked(mChecked);
         }
-        if (view instanceof Switch) {
-            final Switch switchView = (Switch) view;
+        if (view instanceof ToggleSwitch) {
+            final ToggleSwitch switchView = (ToggleSwitch) view;
             switchView.setTextOn(mSwitchOn);
             switchView.setTextOff(mSwitchOff);
-            switchView.setOnCheckedChangeListener(mListener);
+            switchView.addOnCheckedChangeListener(mListener);
         }
     }
 

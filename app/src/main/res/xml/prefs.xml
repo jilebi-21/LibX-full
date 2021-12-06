@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <PreferenceCategory>
         <Preference
             app:summary="The base class of all preference classes"
@@ -19,14 +20,27 @@
 
     <PreferenceCategory app:title="Two state Preferences">
         <SwitchPreference
-            app:key="switch_pref"
+            app:key="zswitch_pref"
             app:summaryOff="OFF"
+            app:datastore="secure"
             app:summaryOn="ON"
             app:title="Switch Preference" />
 
+        <SwitchPreference
+            app:datastore="secure"
+            app:key="zswitch_pref_nav"
+            app:summaryOff="OFF"
+            app:summaryOn="ON"
+            app:title="Switch Preference">
+            <intent
+                android:targetClass="org.freaky.lib.SwitchBarActivity"
+                android:targetPackage="org.freaky.lib" />
+        </SwitchPreference>
+
         <CheckBoxPreference
-            app:key="checkbox_pref"
+            app:key="zcheckbox_pref"
             app:summaryOff="Un-checked"
+            app:datastore="secure"
             app:summaryOn="Checked"
             app:title="CheckBox Preference" />
     </PreferenceCategory>

@@ -56,13 +56,25 @@
             </com.google.android.material.appbar.CollapsingToolbarLayout>
         </com.google.android.material.appbar.AppBarLayout>
 
-        <com.libx.ui.widget.XLinearLayout
-            android:id="@+id/tl_main_container"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             app:cornerRadius="@dimen/radius_card"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <com.libx.ui.views.SwitchBar
+                android:id="@+id/tl_switchbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp" />
+
+            <com.libx.ui.widget.XLinearLayout
+                android:id="@+id/tl_main_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" />
+        </LinearLayout>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     <include layout="@layout/toolbar_layout_footer" />

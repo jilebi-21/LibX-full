@@ -1152,6 +1152,15 @@ public class Preference implements Comparable<Preference> {
         return mPreferenceManager.getSharedPreferences().getBoolean(mKey, defaultReturnValue);
     }
 
+    /**
+     * invoked when the activity is paused or resumed
+     */
+    protected void onPause() {
+    }
+
+    protected void onResume() {
+    }
+
     @Override
     public String toString() {
         return getFilterableStringBuilder().toString();

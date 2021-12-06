@@ -330,6 +330,26 @@ public abstract class PreferenceGroup extends Preference {
     }
 
     @Override
+    protected void onPause() {
+        super.onPause();
+
+        final int preferenceCount = getPreferenceCount();
+        for (int i = 0; i < preferenceCount; i++) {
+            getPreference(i).onPause();
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        final int preferenceCount = getPreferenceCount();
+        for (int i = 0; i < preferenceCount; i++) {
+            getPreference(i).onResume();
+        }
+    }
+
+    @Override
     public void notifyDependencyChange(boolean disableDependents) {
         super.notifyDependencyChange(disableDependents);
 

@@ -211,6 +211,24 @@ public abstract class PreferenceFragmentCompat extends Fragment implements
     }
 
     @Override
+    public void onResume() {
+        super.onResume();
+        PreferenceScreen screen = getPreferenceScreen();
+        for (int i = 0; i < screen.getPreferenceCount(); i++) {
+            screen.getPreference(i).onResume();
+        }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        PreferenceScreen screen = getPreferenceScreen();
+        for (int i = 0; i < screen.getPreferenceCount(); i++) {
+            screen.getPreference(i).onPause();
+        }
+    }
+
+    @Override
     public void onDestroyView() {
         mHandler.removeCallbacks(mRequestFocus);
         mHandler.removeMessages(MSG_BIND_PREFERENCES);
