@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+<com.libx.ui.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory>
-        <Preference
+    <com.libx.ui.preference.PreferenceCategory>
+        <com.libx.ui.preference.Preference
             app:summary="The base class of all preference classes"
             app:title="Preference" />
 
-        <EditTextPreference
+        <com.libx.ui.preference.EditTextPreference
             app:datastore="secure"
             app:defaultValue="User"
             app:key="edit_text_pref"
             app:title="EditText Preference"
             app:useSimpleSummaryProvider="true" />
 
-        <SeekBarPreference
+        <com.libx.ui.preference.SeekBarPreference
             app:key="seekbar_pref"
             app:title="SeekBar Preference" />
-    </PreferenceCategory>
+    </com.libx.ui.preference.PreferenceCategory>
 
-    <PreferenceCategory app:title="Two state Preferences">
-        <SwitchPreference
+    <com.libx.ui.preference.PreferenceCategory app:title="Two state Preferences">
+        <com.libx.ui.preference.SwitchPreference
             app:key="zswitch_pref"
             app:summaryOff="OFF"
             app:datastore="secure"
             app:summaryOn="ON"
             app:title="Switch Preference" />
 
-        <SwitchPreference
+        <com.libx.ui.preference.SwitchPreference
             app:datastore="secure"
             app:key="zswitch_pref_nav"
             app:summaryOff="OFF"
@@ -35,38 +35,38 @@
             <intent
                 android:targetClass="org.freaky.lib.SwitchBarActivity"
                 android:targetPackage="org.freaky.lib" />
-        </SwitchPreference>
+        </com.libx.ui.preference.SwitchPreference>
 
-        <CheckBoxPreference
+        <com.libx.ui.preference.CheckBoxPreference
             app:key="zcheckbox_pref"
             app:summaryOff="Un-checked"
             app:datastore="secure"
             app:summaryOn="Checked"
             app:title="CheckBox Preference" />
-    </PreferenceCategory>
+    </com.libx.ui.preference.PreferenceCategory>
 
-    <RadioButtonPreferenceGroup
+    <com.libx.ui.preference.RadioButtonPreferenceGroup
         app:checkedPreferenceKey="pref3"
         app:title="Radio Button Group">
 
-        <RadioButtonPreference
+        <com.libx.ui.preference.RadioButtonPreference
             app:key="pref1"
             app:summary="Summary"
             app:title="Radio Button Preference 1" />
 
-        <RadioButtonPreference
+        <com.libx.ui.preference.RadioButtonPreference
             app:key="pref2"
             app:summary="Summary"
             app:title="Radio Button Preference 2" />
 
-        <RadioButtonPreference
+        <com.libx.ui.preference.RadioButtonPreference
             app:key="pref3"
             app:summary="Summary"
             app:title="Radio Button Preference 3" />
-    </RadioButtonPreferenceGroup>
+    </com.libx.ui.preference.RadioButtonPreferenceGroup>
 
-    <PreferenceCategory>
-        <ListPreference
+    <com.libx.ui.preference.PreferenceCategory>
+        <com.libx.ui.preference.ListPreference
             app:defaultValue="0"
             app:entries="@array/list_entries"
             app:entryValues="@array/list_entry_values"
@@ -74,32 +74,32 @@
             app:title="List Preference"
             app:useSimpleSummaryProvider="true" />
 
-        <MultiSelectListPreference
+        <com.libx.ui.preference.MultiSelectListPreference
             app:entries="@array/list_entries"
             app:entryValues="@array/list_entry_values"
             app:key="sdfdsdsf"
             app:title="MultiSelectListPreference" />
 
-        <DropDownPreference
+        <com.libx.ui.preference.DropDownPreference
             app:defaultValue="0"
             app:entries="@array/list_entries"
             app:entryValues="@array/list_entry_values"
             app:key="sdfdssf"
             app:title="DropDownPreference"
             app:useSimpleSummaryProvider="true" />
-    </PreferenceCategory>
+    </com.libx.ui.preference.PreferenceCategory>
 
-    <PreferenceCategory>
-        <ColorPickerPreference
+    <com.libx.ui.preference.PreferenceCategory>
+        <com.libx.ui.preference.ColorPickerPreference
             app:datastore="secure"
             app:key="zcolor_picker"
             app:title="ColorPicker Preference"
             app:useSimpleSummaryProvider="true" />
-    </PreferenceCategory>
+    </com.libx.ui.preference.PreferenceCategory>
 
-    <PreferenceCategory>
-        <LayoutPreference
+    <com.libx.ui.preference.PreferenceCategory>
+        <com.libx.ui.preference.LayoutPreference
             app:layout="@layout/layout_pref_sample"
             app:selectable="true" />
-    </PreferenceCategory>
-</PreferenceScreen>
+    </com.libx.ui.preference.PreferenceCategory>
+</com.libx.ui.preference.PreferenceScreen>
