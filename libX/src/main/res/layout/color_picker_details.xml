@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:id="@+id/preview_layout"
+        android:layout_width="56dp"
+        android:layout_height="36dp"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/hex_container"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/display_current_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/color_picker_current_color_preview_bg"
+            android:backgroundTint="#000" />
+
+        <View
+            android:id="@+id/display_new_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/color_picker_new_color_preview_bg"
+            android:backgroundTint="#000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hex_container"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/hue_container"
+        app:layout_constraintStart_toEndOf="@id/preview_layout"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/ColorPickerColorDetailsTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="6dp"
+            android:maxWidth="85dp"
+            android:text="@string/color_picker_hex_title"
+            app:drawableEndCompat="@drawable/ic_hex_view_edit"
+            app:drawableTint="#909090" />
+
+        <TextView
+            android:id="@+id/hex_code"
+            style="@style/ColorPickerColorDetailsBodyStyle"
+            android:layout_width="85dp"
+            android:layout_height="24dp"
+            android:gravity="center"
+            android:text="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hue_container"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/sat_container"
+        app:layout_constraintStart_toEndOf="@id/hex_container"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/ColorPickerColorDetailsTitleStyle"
+            android:text="@string/color_picker_hue_title" />
+
+        <TextView
+            android:id="@+id/hue_code"
+            style="@style/ColorPickerColorDetailsBodyStyle"
+            android:layout_width="40dp"
+            android:layout_height="24dp"
+            android:gravity="center"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sat_container"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/val_container"
+        app:layout_constraintStart_toEndOf="@id/hue_container"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/ColorPickerColorDetailsTitleStyle"
+            android:text="@string/color_picker_sat_title" />
+
+        <TextView
+            android:id="@+id/sat_code"
+            style="@style/ColorPickerColorDetailsBodyStyle"
+            android:gravity="center"
+            android:text="0%" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/val_container"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/sat_container"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/ColorPickerColorDetailsTitleStyle"
+            android:text="@string/color_picker_val_title" />
+
+        <TextView
+            android:id="@+id/val_code"
+            style="@style/ColorPickerColorDetailsBodyStyle"
+            android:layout_width="40dp"
+            android:layout_height="24dp"
+            android:gravity="center"
+            android:text="0%" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingVertical="2dp">
+
+    <com.libx.ui.colorpicker.ColorPickerTrackerView
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:elevation="1dp" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/color_picker_scale_height"
+        android:layout_marginVertical="10dp"
+        android:elevation="0dp"
+        android:thumb="@null" />
+</merge>
+

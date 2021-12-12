@@ -2,4 +2,12 @@
 <resources>
     <string name="switch_text_off">Off</string>
     <string name="switch_text_on">On</string>
+
+    <string name="dialog_color_picker_title">Color Picker</string>
+    <string name="color_default">Default</string>
+    <string name="dialog_color_picker_tip">Tip: Try to pick brighter colors for better visibility.</string>
+    <string name="color_picker_hex_title" translatable="false">Hex</string>
+    <string name="color_picker_hue_title" translatable="false">Hue</string>
+    <string name="color_picker_sat_title" translatable="false">Sat</string>
+    <string name="color_picker_val_title" translatable="false">Val</string>
 </resources>

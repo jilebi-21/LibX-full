@@ -90,6 +90,14 @@
     </PreferenceCategory>
 
     <PreferenceCategory>
+        <ColorPickerPreference
+            app:datastore="secure"
+            app:key="zcolor_picker"
+            app:title="ColorPicker Preference"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory>
         <LayoutPreference
             app:layout="@layout/layout_pref_sample"
             app:selectable="true" />

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="20dp">
+
+        <include
+            layout="@layout/color_picker_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <com.libx.ui.colorpicker.ColorPickerScale
+            android:id="@+id/hue_scale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.libx.ui.colorpicker.ColorPickerScale
+            android:id="@+id/sat_scale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.libx.ui.colorpicker.ColorPickerScale
+            android:id="@+id/val_scale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
