@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="FreakyAppTheme" parent="BaseTheme" />
+    <style name="AppTheme" parent="BaseTheme" />
 
-    <style name="BaseTheme" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/primary_color</item>
-        <item name="colorSecondary">@color/secondary_color</item>
+    <style name="BaseTheme" parent="Theme.Material3.DynamicColors.DayNight.NoActionBar">
         <item name="colorSurface">@color/surface_color</item>
         <item name="colorSurfaceVariant">@color/surface_color_variant</item>
         <item name="colorSurfaceVariant2">@color/surface_color_variant2</item>
-        <item name="android:windowBackground">@color/surface_color</item>
-        <item name="android:statusBarColor">@color/surface_color</item>
-        <item name="android:navigationBarColor">@color/surface_color</item>
+        <item name="android:windowBackground">?colorSurface</item>
+        <item name="android:statusBarColor">?colorSurface</item>
+        <item name="android:navigationBarColor">?colorSurface</item>
         <item name="android:windowLightStatusBar">?isLightTheme</item>
         <item name="android:windowLightNavigationBar">?isLightTheme</item>
 
         <item name="rippleColor">@color/item_ripple_color</item>
         <item name="itemRippleColor">@color/item_ripple_color</item>
-        <item name="textColorPrimary">@color/text_color</item>
-        <item name="textColorPrimaryInverse">@color/text_color_inverse</item>
-        <item name="textColorSecondary">@color/text_color_secondary</item>
-        <item name="textColorSecondaryInverse">@color/text_color_secondary_inverse</item>
 
         <item name="android:progressBarStyle">@style/ProgressBarXStyle</item>
         <item name="android:progressBarStyleHorizontal">@style/ProgressBarXStyle.Horizontal</item>
@@ -72,5 +66,9 @@
         <item name="alertDialogStyle">@style/AlertDialogStyle</item>
 
         <item name="preferenceTheme">@style/PreferenceThemeStyle</item>
+    </style>
+
+    <style name="Theme.Material3.DynamicColors.DayNight.NoActionBar">
+        <item name="windowNoTitle">true</item>
     </style>
 </resources>

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary_color">#00f801</color>
-    <color name="secondary_color">#64DD17</color>
-    <color name="surface_color">#f2f2f2</color>
-    <color name="surface_color_variant">#ffffff</color>
+    <color name="surface_color">#F2F2F2</color>
+    <color name="surface_color_variant">@color/tinted_primary</color>
     <color name="surface_color_variant2">#fcfcfc</color>
-    <color name="divider_color">#ff979797</color>
+    <color name="divider_color">#97979797</color>
     <color name="ripple_color">#e1e1e1</color>
 
     <color name="sesl_seekbar_control_color_normal">#4d0381fe</color>
@@ -19,11 +17,6 @@
     <color name="dark_color">#252525</color>
 
     <color name="sesl_list_subheader_text_color">#8c8c8c</color>
-
-    <color name="text_color">@color/dark_color</color>
-    <color name="text_color_inverse">@color/light_color</color>
-    <color name="text_color_secondary">#636363</color>
-    <color name="text_color_secondary_inverse">#9c9c9c</color>
 
     <!--Switch-->
     <color name="switch_thumb_on_color">?colorPrimaryContainer</color>

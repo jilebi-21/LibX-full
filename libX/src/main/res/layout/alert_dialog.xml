@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:paddingTop="@dimen/dialog_layout_padding_top"
+    android:background="@drawable/dialog_background"
     tools:background="@drawable/dialog_background"
     tools:backgroundTint="#C1BFBF"
     tools:layout_gravity="bottom">

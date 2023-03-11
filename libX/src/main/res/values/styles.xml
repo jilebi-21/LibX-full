@@ -38,7 +38,7 @@
         <item name="android:textColor">@color/sesl_list_subheader_text_color</item>
         <item name="android:ellipsize">end</item>
         <item name="android:gravity">center_vertical</item>
-        <item name="android:background">@color/surface_color</item>
+        <item name="android:background">?colorSurface</item>
         <item name="android:paddingTop">@dimen/sesl_list_subheader_padding_top</item>
         <item name="android:paddingBottom">@dimen/sesl_list_subheader_padding_bottom</item>
         <item name="android:layout_width">fill_parent</item>
@@ -176,14 +176,14 @@
     <style name="Toolbar.Collapsed.Title.Text" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textSize">@dimen/toolbar_title_text_size</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
         <item name="textAllCaps">false</item>
     </style>
 
     <style name="Toolbar.Collapsed.Subtitle.Text" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
         <item name="android:textSize">@dimen/toolbar_subtitle_text_size</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">?textColorSecondary</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
         <item name="textAllCaps">false</item>
     </style>
 
@@ -254,7 +254,6 @@
     <style name="DialogTheme" parent="ThemeOverlay.Material3">
         <item name="android:backgroundDimAmount">@dimen/dialog_background_dim_amount</item>
         <item name="android:textAppearanceInverse">@style/DialogTextInverseStyle</item>
-        <item name="android:windowBackground">@drawable/dialog_background</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowContentOverlay">@null</item>

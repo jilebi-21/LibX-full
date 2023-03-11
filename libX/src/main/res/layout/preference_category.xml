@@ -16,6 +16,6 @@
         android:paddingStart="?android:listPreferredItemPaddingStart"
         android:paddingEnd="?android:listPreferredItemPaddingEnd"
         android:textAppearance="@style/ListSeparatorTextStyle"
-        android:textColor="?textColorSecondary"
+        android:textColor="?android:textColorSecondary"
         tools:text="Category" />
 </LinearLayout>
