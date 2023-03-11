@@ -15,9 +15,6 @@
  */
 package com.libx.ui.utils;
 
-import static com.google.android.material.shadow.ShadowDrawableWrapper.calculateHorizontalPadding;
-import static com.google.android.material.shadow.ShadowDrawableWrapper.calculateVerticalPadding;
-
 import android.content.res.ColorStateList;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -32,9 +29,11 @@ import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
 
 import androidx.annotation.Nullable;
-import androidx.annotation.RequiresApi;
 
 public class RoundRectDrawable extends Drawable {
+
+    static final float SHADOW_MULTIPLIER = 1.5f;
+    static final double COS_45 = Math.cos(Math.toRadians(45));
     private float mRadius;
     private final Paint mPaint;
     private final RectF mBoundsF;
@@ -109,6 +108,24 @@ public class RoundRectDrawable extends Drawable {
             mBoundsI.inset((int) Math.ceil(hInset), (int) Math.ceil(vInset));
             // to make sure they have same bounds.
             mBoundsF.set(mBoundsI);
+        }
+    }
+
+    public static float calculateVerticalPadding(
+            float maxShadowSize, float cornerRadius, boolean addPaddingForCorners) {
+        if (addPaddingForCorners) {
+            return (float) (maxShadowSize * SHADOW_MULTIPLIER + (1 - COS_45) * cornerRadius);
+        } else {
+            return maxShadowSize * SHADOW_MULTIPLIER;
+        }
+    }
+
+    public static float calculateHorizontalPadding(
+            float maxShadowSize, float cornerRadius, boolean addPaddingForCorners) {
+        if (addPaddingForCorners) {
+            return (float) (maxShadowSize + (1 - COS_45) * cornerRadius);
+        } else {
+            return maxShadowSize;
         }
     }
 
