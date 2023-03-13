@@ -63,6 +63,10 @@ class ToolbarLayout(
     var navigationIcon: Drawable? = null
         set(value) {
             field = value
+            collapsedTitleContainer.setPadding(
+                if (field == null) context.resources.getDimension(R.dimen.toolbar_padding_start).toInt() else 0,
+                0, 0, 0
+            )
             toolbar.navigationIcon = value
         }
 
