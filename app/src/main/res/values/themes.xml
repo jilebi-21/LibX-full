@@ -1,10 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
-    <style name="Theme.FreakyDesignLibrary" parent="AppTheme">
-<!--        <item name="colorPrimary">#8C9EFF</item>-->
-<!--        <item name="colorOnPrimary">@color/white</item>-->
-<!--        <item name="colorSecondary">#689F38</item>-->
-<!--        <item name="colorOnSecondary">@color/black</item>-->
-<!--        <item name="colorAccent">#689F38</item>-->
-    </style>
+    <style name="Theme.FreakyDesignLibrary" parent="LibXBaseTheme" />
 </resources>

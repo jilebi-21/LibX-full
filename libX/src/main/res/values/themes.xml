@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="AppTheme" parent="BaseTheme" />
-
-    <style name="BaseTheme" parent="Theme.Material3.DynamicColors.DayNight.NoActionBar">
+    <style name="LibXBaseTheme" parent="Theme.Material3.DynamicColors.DayNight.NoActionBar">
         <item name="colorSurface">@color/surface_color</item>
         <item name="colorSurfaceVariant">@color/surface_color_variant</item>
         <item name="colorSurfaceVariant2">@color/surface_color_variant2</item>
