@@ -16,6 +16,7 @@
 
 package com.libx.ui.preference;
 
+import android.annotation.SuppressLint;
 import android.util.SparseArray;
 import android.view.View;
 
@@ -31,6 +32,7 @@ public class PreferenceViewHolder extends RecyclerView.ViewHolder {
     private boolean mDividerAllowedAbove;
     private boolean mDividerAllowedBelow;
 
+    @SuppressLint("RestrictedApi")
     PreferenceViewHolder(View itemView) {
         super(itemView);
 

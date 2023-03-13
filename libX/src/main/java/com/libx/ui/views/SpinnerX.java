@@ -96,6 +96,7 @@ public class SpinnerX extends AppCompatSpinner {
         this(context, attrs, defStyleAttr, mode, null);
     }
 
+    @SuppressLint("ResourceType")
     public SpinnerX(@NonNull Context context, @Nullable AttributeSet attrs,
                     int defStyleAttr, int mode, Resources.Theme popupTheme) {
         super(context, attrs, defStyleAttr);
